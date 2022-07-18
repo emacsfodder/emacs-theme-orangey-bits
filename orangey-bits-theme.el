@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-orangey-bits
-;; Version: 0.1.0
+;; Version: 0.1.1
 ;; Package-Requires: ((autothemer "0.2"))
 
 ;;; Commentary:
@@ -67,14 +67,14 @@
   (orangey-bits-neutral_orange       "#FF8800")
   (orangey-bits-neutral_cyan         "#80FFFF")
 
-  (orangey-bits-faded_red            "#FF6F3F)
-  (orangey-bits-faded_green          "#93FF3F)
-  (orangey-bits-faded_yellow         "#FFFF43)
-  (orangey-bits-faded_blue           "#8A7FFF)
-  (orangey-bits-faded_purple         "#FF7FFF)
-  (orangey-bits-faded_teal           "#78A0A0)
-  (orangey-bits-faded_orange         "#FFA53F)
-  (orangey-bits-faded_cyan           "#BFFFFF)
+  (orangey-bits-faded_red            "#FF6F3F")
+  (orangey-bits-faded_green          "#93FF3F")
+  (orangey-bits-faded_yellow         "#FFFF43")
+  (orangey-bits-faded_blue           "#8A7FFF")
+  (orangey-bits-faded_purple         "#FF7FFF")
+  (orangey-bits-faded_teal           "#78A0A0")
+  (orangey-bits-faded_orange         "#FFA53F")
+  (orangey-bits-faded_cyan           "#BFFFFF")
 
   (orangey-bits-muted_red            "#FF8C66")
   (orangey-bits-muted_green          "#A9FF66")
@@ -86,7 +86,7 @@
   (orangey-bits-muted_cyan           "#E6FFFF")
 
   (orangey-bits-background_red       "#590A1A")
-  (orangey-bits-background_green     "#2E592e6")
+  (orangey-bits-background_green     "#2E592e")
   (orangey-bits-background_yellow    "#707007")
   (orangey-bits-background_blue      "#1C1C59")
   (orangey-bits-background_purple    "#593C59")
