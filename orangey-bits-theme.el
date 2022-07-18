@@ -22,15 +22,15 @@
                       "A Theme with smashing orangey bits."
  ((((class color) (min-colors #xFFFFFF))) ;; GUI/24bit only
 
-  (orangey-bits-background0_hard     "#211F1D")
-  (orangey-bits-background0          "#322D28")
-  (orangey-bits-background0_soft     "#32302F")
-  (orangey-bits-background1          "#3C3936")
-  (orangey-bits-background2          "#504A45")
-  (orangey-bits-background3          "#665D54")
-  (orangey-bits-background4          "#7C7064")
+  (orangey-bits-background0_hard     "#070606")
+  (orangey-bits-background0          "#181513")
+  (orangey-bits-background0_soft     "#181616")
+  (orangey-bits-background1          "#22201E")
+  (orangey-bits-background2          "#36322E")
+  (orangey-bits-background3          "#4C453E")
+  (orangey-bits-background4          "#62584E")
 
-  (orangey-bits-medium               "#928374")
+  (orangey-bits-medium               "#B6A492")
 
   (orangey-bits-foreground0_hard     "#FFE3C8")
   (orangey-bits-foreground0          "#FDDFC1")
