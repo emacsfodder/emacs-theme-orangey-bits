@@ -32,8 +32,8 @@
 
   (orangey-bits-medium               "#DD7400")
 
-  (orangey-bits-foreground0_hard     "#FFC080")
-  (orangey-bits-foreground0          "#FFB050")
+  (orangey-bits-foreground0_hard     "#FFFFFF")
+  (orangey-bits-foreground0          "#FFE0C0")
   (orangey-bits-foreground0_soft     "#FFA030")
   (orangey-bits-foreground1          "#FF8010")
   (orangey-bits-foreground2          "#F07010")
@@ -1165,19 +1165,19 @@
   (widget-single-line-field                 (:background orangey-bits-background4))
 
   (yas--field-debug-face nil)
-  (yas-field-highlight-face                 (:inherit ('quote 'region)))))
+  (yas-field-highlight-face                 (:inherit ('quote 'region))))
 
-(custom-theme-set-variables 'orangey-bits
-                            `(pos-tip-foreground-color ,orangey-bits-foreground0_hard)
-                            `(pos-tip-background-color ,orangey-bits-background_teal)
-                            `(ansi-color-names-vector [,orangey-bits-background1
-                                                       ,orangey-bits-bright_red
-                                                       ,orangey-bits-bright_green
-                                                       ,orangey-bits-bright_yellow
-                                                       ,orangey-bits-bright_blue
-                                                       ,orangey-bits-bright_purple
-                                                       ,orangey-bits-bright_cyan
-                                                       ,orangey-bits-foreground1]))
+ (custom-theme-set-variables 'orangey-bits
+                             `(pos-tip-foreground-color ,orangey-bits-foreground0_hard)
+                             `(pos-tip-background-color ,orangey-bits-background_teal)
+                             `(ansi-color-names-vector [,orangey-bits-background1
+                                                        ,orangey-bits-bright_red
+                                                        ,orangey-bits-bright_green
+                                                        ,orangey-bits-bright_yellow
+                                                        ,orangey-bits-bright_blue
+                                                        ,orangey-bits-bright_purple
+                                                        ,orangey-bits-bright_cyan
+                                                        ,orangey-bits-foreground1])))
 
 ;;;###autoload
 (and load-file-name
