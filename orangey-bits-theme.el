@@ -1,10 +1,10 @@
 ;;; orangey-bits-theme.el --- A Theme with smashing orangey bits
 
-;; Copyright (c) 2015-2016 Jason Milkins (GNU/GPL Licence)
+;; Copyright (c) 2022 Jason Milkins (GNU/GPL Licence)
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-orangey-bits
-;; Version: 0.1.1
+;; Version: 0.1.2
 ;; Package-Requires: ((autothemer "0.2"))
 
 ;;; Commentary:
@@ -94,10 +94,10 @@
   (orangey-bits-mid_orange           "#BF4200")
   (orangey-bits-mid_cyan             "#B25000")
 
-  (orangey-bits-delimiter-one        "#FF4F00")
-  (orangey-bits-delimiter-two        "#E14400")
-  (orangey-bits-delimiter-three      "#D04000")
-  (orangey-bits-delimiter-four       "#AA3A00")
+  (orangey-bits-delimiter-1          "#FF4F00")
+  (orangey-bits-delimiter-2          "#E14400")
+  (orangey-bits-delimiter-3          "#D04000")
+  (orangey-bits-delimiter-4          "#AA3A00")
 
   (orangey-bits-identifiers-1        "#FF6600")
   (orangey-bits-identifiers-2        "#ED5E00")
@@ -125,8 +125,8 @@
   (orangey-bits-accent-3             "#FF7A00"))
 
  ((default                                   (:foreground orangey-bits-foreground0 :background orangey-bits-background0))
-  (highlight                                 (:foreground orangey-bits-foreground0 :background orangey-bits-mid_cyan))
-  (cursor                                    (:background orangey-bits-muted_blue))
+  (highlight                                 (:foreground orangey-bits-foreground0 :background orangey-bits-background4))
+  (cursor                                    (:background orangey-bits-foreground4))
   (link                                      (:foreground orangey-bits-faded_blue :underline t))
   (link-visited                              (:foreground orangey-bits-faded_blue :underline nil))
 
@@ -179,18 +179,18 @@
   (whitespace-space-after-tab                (:foreground orangey-bits-background4 :background orangey-bits-background0))
 
   ;; MODE SUPPORT: rainbow-delimiters)
-  (rainbow-delimiters-depth-1-face           (:foreground orangey-bits-delimiter-one))
-  (rainbow-delimiters-depth-2-face           (:foreground orangey-bits-delimiter-two))
-  (rainbow-delimiters-depth-3-face           (:foreground orangey-bits-delimiter-three))
-  (rainbow-delimiters-depth-4-face           (:foreground orangey-bits-delimiter-four))
-  (rainbow-delimiters-depth-5-face           (:foreground orangey-bits-delimiter-one))
-  (rainbow-delimiters-depth-6-face           (:foreground orangey-bits-delimiter-two))
-  (rainbow-delimiters-depth-7-face           (:foreground orangey-bits-delimiter-three))
-  (rainbow-delimiters-depth-8-face           (:foreground orangey-bits-delimiter-four))
-  (rainbow-delimiters-depth-9-face           (:foreground orangey-bits-delimiter-one))
-  (rainbow-delimiters-depth-10-face          (:foreground orangey-bits-delimiter-two))
-  (rainbow-delimiters-depth-11-face          (:foreground orangey-bits-delimiter-three))
-  (rainbow-delimiters-depth-12-face          (:foreground orangey-bits-delimiter-four))
+  (rainbow-delimiters-depth-1-face           (:foreground orangey-bits-delimiter-1))
+  (rainbow-delimiters-depth-2-face           (:foreground orangey-bits-delimiter-2))
+  (rainbow-delimiters-depth-3-face           (:foreground orangey-bits-delimiter-3))
+  (rainbow-delimiters-depth-4-face           (:foreground orangey-bits-delimiter-4))
+  (rainbow-delimiters-depth-5-face           (:foreground orangey-bits-delimiter-1))
+  (rainbow-delimiters-depth-6-face           (:foreground orangey-bits-delimiter-2))
+  (rainbow-delimiters-depth-7-face           (:foreground orangey-bits-delimiter-3))
+  (rainbow-delimiters-depth-8-face           (:foreground orangey-bits-delimiter-4))
+  (rainbow-delimiters-depth-9-face           (:foreground orangey-bits-delimiter-1))
+  (rainbow-delimiters-depth-10-face          (:foreground orangey-bits-delimiter-2))
+  (rainbow-delimiters-depth-11-face          (:foreground orangey-bits-delimiter-3))
+  (rainbow-delimiters-depth-12-face          (:foreground orangey-bits-delimiter-4))
   (rainbow-delimiters-unmatched-face         (:foreground orangey-bits-foreground0 :background nil))
 
   ;; MODE SUPPORT: rainbow-identifiers)
@@ -791,7 +791,7 @@
   (diff-index                               (:inherit 'diff-file-header))
   (diff-nonexistent                         (:inherit 'diff-file-header))
   (diff-refine-added                        (:background orangey-bits-mid_teal :inherit 'diff-refine-change))
-  (diff-refine-changed                      (:background orangey-bits-foreground4))
+  (diff-refine-changed                      (:background orangey-bits-background4))
   (diff-refine-removed                      (:background orangey-bits-muted_red :inherit 'diff-refine-change))
 
   (dired-directory                          (:inherit 'font-lock-function-name-face))
@@ -1011,7 +1011,7 @@
   (magit-diff-their                         (:inherit 'magit-diff-added))
   (magit-diff-their-highlight               (:inherit 'magit-diff-added-highlight))
   (magit-diff-whitespace-warning            (:inherit 'trailing-whitespace))
-  (magit-diffstat-added                     (:foreground orangey-bits-delimiter-three))
+  (magit-diffstat-added                     (:foreground orangey-bits-delimiter-3))
   (magit-diffstat-removed                   (:foreground orangey-bits-background2))
   (magit-dimmed                             (:foreground orangey-bits-muted_purple))
   (magit-hash                               (:foreground orangey-bits-background3))
