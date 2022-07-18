@@ -127,8 +127,8 @@
  ((default                                   (:foreground orangey-bits-foreground0 :background orangey-bits-background0))
   (highlight                                 (:foreground orangey-bits-foreground0 :background orangey-bits-mid_cyan))
   (cursor                                    (:background orangey-bits-muted_blue))
-  (link                                      (:foreground orangey-bits-bright_blue :underline t))
-  (link-visited                              (:foreground orangey-bits-bright_blue :underline nil))
+  (link                                      (:foreground orangey-bits-faded_blue :underline t))
+  (link-visited                              (:foreground orangey-bits-faded_blue :underline nil))
 
   (mode-line                                 (:foreground orangey-bits-foreground1 :background orangey-bits-background0_hard :box nil))
   (mode-line-inactive                        (:foreground orangey-bits-foreground4 :background orangey-bits-background2 :box nil))
@@ -146,20 +146,20 @@
   (secondary-selection                       (:background orangey-bits-mid_orange))
   (cua-rectangle                             (:background orangey-bits-mid_green :distant-foreground orangey-bits-foreground0))
   (header-line                               (:foreground orangey-bits-accent-6 :background orangey-bits-background0 :bold nil))
-  (minibuffer-prompt                         (:foreground orangey-bits-bright_cyan :background orangey-bits-background0 :bold nil))
+  (minibuffer-prompt                         (:foreground orangey-bits-foreground0 :background orangey-bits-background0 :bold nil))
 
   ;; compilation messages (also used by several other modes))
   (compilation-info                          (:foreground orangey-bits-neutral_green))
   (compilation-mode-line-fail                (:foreground orangey-bits-neutral_red))
-  (error                                     (:foreground orangey-bits-bright_orange :bold t))
-  (success                                   (:foreground orangey-bits-neutral_green :bold t))
+  (error                                     (:foreground orangey-bits-bright_red :bold t))
+  (success                                   (:foreground orangey-bits-bright_green :bold t))
   (warning                                   (:foreground orangey-bits-bright_red :bold t))
 
   ;; Built-in syntax)
-  (font-lock-builtin-face                           (:foreground orangey-bits-bright_orange))
+  (font-lock-builtin-face                           (:foreground orangey-bits-foreground3))
   (font-lock-constant-face                          (:foreground orangey-bits-accent-4))
-  (font-lock-comment-face                           (:foreground orangey-bits-background4))
-  (font-lock-function-name-face                     (:foreground orangey-bits-foreground4))
+  (font-lock-comment-face                           (:foreground orangey-bits-foreground4))
+  (font-lock-function-name-face                     (:foreground orangey-bits-foreground2))
   (font-lock-keyword-face                           (:foreground orangey-bits-accent-1))
   (font-lock-string-face                            (:foreground orangey-bits-accent-2))
   (font-lock-variable-name-face                     (:foreground orangey-bits-accent-5))
@@ -216,8 +216,8 @@
   (ido-first-match                           (:foreground orangey-bits-faded_cyan :background orangey-bits-background0_hard))
   (ido-only-match                            (:foreground orangey-bits-accent-2))
   (ido-vertical-match-face                   (:bold t))
-  (ido-vertical-only-match-face              (:foreground orangey-bits-bright_cyan))
-  (ido-vertical-first-match-face             (:foreground orangey-bits-bright_cyan :background orangey-bits-background_blue))
+  (ido-vertical-only-match-face              (:foreground orangey-bits-faded_cyan))
+  (ido-vertical-first-match-face             (:foreground orangey-bits-faded_cyan :background orangey-bits-background_blue))
 
   ;; MODE SUPPORT: linum-relative
   (linum-relative-current-face               (:foreground orangey-bits-foreground4 :background orangey-bits-background1))
@@ -227,7 +227,7 @@
   (highlight-indentation-face                (:background orangey-bits-background1))
 
   ;; MODE SUPPORT: highlight-numbers
-  (highlight-numbers-number                  (:foreground orangey-bits-bright_purple :bold nil))
+  (highlight-numbers-number                  (:foreground orangey-bits-foreground0_hard :bold t))
 
   ;; MODE SUPPORT: highlight-symbol
   (highlight-symbol-face                     (:foreground orangey-bits-neutral_purple))
