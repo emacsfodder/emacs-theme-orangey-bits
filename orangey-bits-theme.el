@@ -1,10 +1,10 @@
-;;; orangey-bits-theme.el --- A Theme with smashing  bits.
+;;; orangey-bits-theme.el --- A Theme with smashing orangey bits
 
 ;; Copyright (c) 2015-2016 Jason Milkins (GNU/GPL Licence)
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-orangey-bits
-;; Version: 0.3.15
+;; Version: 0.1.0
 ;; Package-Requires: ((autothemer "0.2"))
 
 ;;; Commentary:
@@ -22,107 +22,116 @@
                       "A Theme with smashing orangey bits."
  ((((class color) (min-colors #xFFFFFF))) ;; GUI/24bit only
 
-  (orangey-bits-background0_hard     "#070606")
-  (orangey-bits-background0          "#181513")
-  (orangey-bits-background0_soft     "#181616")
-  (orangey-bits-background1          "#22201E")
-  (orangey-bits-background2          "#36322E")
-  (orangey-bits-background3          "#4C453E")
-  (orangey-bits-background4          "#62584E")
+  (orangey-bits-background0_hard     "#000000")
+  (orangey-bits-background0          "#190A00")
+  (orangey-bits-background0_soft     "#331400")
+  (orangey-bits-background1          "#4C1F00")
+  (orangey-bits-background2          "#562000")
+  (orangey-bits-background3          "#622800")
+  (orangey-bits-background4          "#703000")
 
-  (orangey-bits-medium               "#B6A492")
+  (orangey-bits-medium               "#DD7400")
 
-  (orangey-bits-foreground0_hard     "#FFE3C8")
-  (orangey-bits-foreground0          "#FDDFC1")
-  (orangey-bits-foreground0_soft     "#F4D7BA")
-  (orangey-bits-foreground1          "#EBCEB2")
-  (orangey-bits-foreground2          "#D5BBA1")
-  (orangey-bits-foreground3          "#BDA893")
-  (orangey-bits-foreground4          "#A89684")
+  (orangey-bits-foreground0_hard     "#FFC080")
+  (orangey-bits-foreground0          "#FFB050")
+  (orangey-bits-foreground0_soft     "#FFA030")
+  (orangey-bits-foreground1          "#FF8010")
+  (orangey-bits-foreground2          "#F07010")
+  (orangey-bits-foreground3          "#E06010")
+  (orangey-bits-foreground4          "#D05010")
 
-  (orangey-bits-bright_red           "#FF7000")
-  (orangey-bits-bright_green         "#D3AC86")
-  (orangey-bits-bright_yellow        "#D1AF8D")
-  (orangey-bits-bright_blue          "#B07841")
-  (orangey-bits-bright_purple        "#C0AF9F")
-  (orangey-bits-bright_aqua          "#C69667")
-  (orangey-bits-bright_orange        "#FEBA77")
-  (orangey-bits-bright_cyan          "#E5923E")
+  (orangey-bits-pure_red             "#FF0000")
+  (orangey-bits-pure_green           "#00FF00")
+  (orangey-bits-pure_yellow          "#FFFF00")
+  (orangey-bits-pure_blue            "#0000FF")
+  (orangey-bits-pure_purple          "#FF00FF")
+  (orangey-bits-pure_teal            "#008080")
+  (orangey-bits-pure_orange          "#FF8800")
+  (orangey-bits-pure_cyan            "#00FFFF")
 
-  (orangey-bits-neutral_red          "#FF8704")
-  (orangey-bits-neutral_green        "#D3B190")
-  (orangey-bits-neutral_yellow       "#D1B497")
-  (orangey-bits-neutral_blue         "#B07C49")
-  (orangey-bits-neutral_purple       "#C0B4A8")
-  (orangey-bits-neutral_aqua         "#C69B70")
-  (orangey-bits-neutral_orange       "#FEC083")
-  (orangey-bits-neutral_cyan         "#D57617")
+  (orangey-bits-bright_red           "#FF0000")
+  (orangey-bits-bright_green         "#00FF00")
+  (orangey-bits-bright_yellow        "#FFFF00")
+  (orangey-bits-bright_blue          "#0000FF")
+  (orangey-bits-bright_purple        "#FF00FF")
+  (orangey-bits-bright_teal          "#008080")
+  (orangey-bits-bright_orange        "#FF8800")
+  (orangey-bits-bright_cyan          "#00FFFF")
 
-  (orangey-bits-faded_red            "#FD7B30")
-  (orangey-bits-faded_green          "#C6A17D")
-  (orangey-bits-faded_yellow         "#C4A484")
-  (orangey-bits-faded_blue           "#A36F3B")
-  (orangey-bits-faded_purple         "#B3A394")
-  (orangey-bits-faded_aqua           "#B98C60")
-  (orangey-bits-faded_orange         "#F1B376")
-  (orangey-bits-faded_cyan           "#AF5700")
+  (orangey-bits-neutral_red          "#FF4000")
+  (orangey-bits-neutral_green        "#70FF00")
+  (orangey-bits-neutral_yellow       "#FFFF04")
+  (orangey-bits-neutral_blue         "#5040FF")
+  (orangey-bits-neutral_purple       "#FF40FF")
+  (orangey-bits-neutral_teal         "#50A0A0")
+  (orangey-bits-neutral_orange       "#FF8800")
+  (orangey-bits-neutral_cyan         "#80FFFF")
 
-  (orangey-bits-muted_red            "#905519")
-  (orangey-bits-muted_green          "#AC8C6C")
-  (orangey-bits-muted_yellow         "#AA8E72")
-  (orangey-bits-muted_blue           "#895D32")
-  (orangey-bits-muted_purple         "#998B7E")
-  (orangey-bits-muted_aqua           "#9F7852")
-  (orangey-bits-muted_orange         "#B07E4D")
-  (orangey-bits-muted_cyan           "#AF6317")
+  (orangey-bits-faded_red            "#FF6F3F)
+  (orangey-bits-faded_green          "#93FF3F)
+  (orangey-bits-faded_yellow         "#FFFF43)
+  (orangey-bits-faded_blue           "#8A7FFF)
+  (orangey-bits-faded_purple         "#FF7FFF)
+  (orangey-bits-faded_teal           "#78A0A0)
+  (orangey-bits-faded_orange         "#FFA53F)
+  (orangey-bits-faded_cyan           "#BFFFFF)
 
-  (orangey-bits-background_red       "#42301E")
-  (orangey-bits-background_green     "#44372A")
-  (orangey-bits-background_yellow    "#42362A")
-  (orangey-bits-background_blue      "#21150A")
-  (orangey-bits-background_purple    "#312B26")
-  (orangey-bits-background_aqua      "#372819")
-  (orangey-bits-background_orange    "#3B2714")
-  (orangey-bits-background_cyan      "#2D1D0E")
+  (orangey-bits-muted_red            "#FF8C66")
+  (orangey-bits-muted_green          "#A9FF66")
+  (orangey-bits-muted_yellow         "#FFFF69")
+  (orangey-bits-muted_blue           "#ADA6FF")
+  (orangey-bits-muted_purple         "#FFA6FF")
+  (orangey-bits-muted_teal           "#90A0A0")
+  (orangey-bits-muted_orange         "#FFB766")
+  (orangey-bits-muted_cyan           "#E6FFFF")
 
-  (orangey-bits-mid_red              "#3F2D1B")
-  (orangey-bits-mid_green            "#514132")
-  (orangey-bits-mid_yellow           "#4F4133")
-  (orangey-bits-mid_blue             "#2E1E0F")
-  (orangey-bits-mid_purple           "#3E3731")
-  (orangey-bits-mid_aqua             "#443221")
-  (orangey-bits-mid_orange           "#483420")
-  (orangey-bits-mid_cyan             "#603000")
+  (orangey-bits-background_red       "#590A1A")
+  (orangey-bits-background_green     "#2E592e6")
+  (orangey-bits-background_yellow    "#707007")
+  (orangey-bits-background_blue      "#1C1C59")
+  (orangey-bits-background_purple    "#593C59")
+  (orangey-bits-background_teal      "#224040")
+  (orangey-bits-background_orange    "#592000")
+  (orangey-bits-background_cyan      "#465959")
 
-  (orangey-bits-delimiter-one        "#D73C00")
-  (orangey-bits-delimiter-two        "#AF4F00")
-  (orangey-bits-delimiter-three      "#934100")
-  (orangey-bits-delimiter-four       "#7F2F00")
+  (orangey-bits-mid_red              "#BF3000")
+  (orangey-bits-mid_green            "#89BF5F")
+  (orangey-bits-mid_yellow           "#BFBF62")
+  (orangey-bits-mid_blue             "#938FBF")
+  (orangey-bits-mid_purple           "#BF8FBF")
+  (orangey-bits-mid_teal             "#507D80")
+  (orangey-bits-mid_orange           "#BF925F")
+  (orangey-bits-mid_cyan             "#60BFBF")
 
-  (orangey-bits-identifiers-1        "#FFD7AF")
-  (orangey-bits-identifiers-2        "#DFC7AF")
-  (orangey-bits-identifiers-3        "#E5D5C5")
-  (orangey-bits-identifiers-4        "#FFD7AF")
-  (orangey-bits-identifiers-5        "#DFB387")
-  (orangey-bits-identifiers-6        "#DFDFDF")
-  (orangey-bits-identifiers-7        "#DFC7AF")
-  (orangey-bits-identifiers-8        "#FFEFDF")
-  (orangey-bits-identifiers-9        "#FFD7AF")
-  (orangey-bits-identifiers-10       "#FFD7AF")
-  (orangey-bits-identifiers-11       "#FFD7AF")
-  (orangey-bits-identifiers-12       "#DFC7AF")
-  (orangey-bits-identifiers-13       "#E5D5C5")
-  (orangey-bits-identifiers-14       "#FFD7AF")
-  (orangey-bits-identifiers-15       "#FFEFDF")
+  (orangey-bits-delimiter-one        "#FF4F00")
+  (orangey-bits-delimiter-two        "#E14400")
+  (orangey-bits-delimiter-three      "#D04000")
+  (orangey-bits-delimiter-four       "#AA3A00")
+
+  (orangey-bits-identifiers-1        "#FF6600")
+  (orangey-bits-identifiers-2        "#ED5E00")
+  (orangey-bits-identifiers-3        "#D75600")
+  (orangey-bits-identifiers-4        "#C14D00")
+  (orangey-bits-identifiers-5        "#AB4400")
+  (orangey-bits-identifiers-6        "#973C00")
+  (orangey-bits-identifiers-7        "#833400")
+  (orangey-bits-identifiers-8        "#702C00")
+  (orangey-bits-identifiers-9        "#833400")
+  (orangey-bits-identifiers-10       "#973C00")
+  (orangey-bits-identifiers-11       "#AB4400")
+  (orangey-bits-identifiers-12       "#C14D00")
+  (orangey-bits-identifiers-13       "#D75600")
+  (orangey-bits-identifiers-14       "#ED5E00")
+  (orangey-bits-identifiers-15       "#FF6600")
 
   (orangey-bits-white                "#FFFFFF")
   (orangey-bits-black                "#000000")
-  (orangey-bits-accent-1             "#9D8166")
-  (orangey-bits-accent-2             "#8B6E52")
-  (orangey-bits-accent-3             "#9D8166")
-  (orangey-bits-accent-4             "#BBA997")
-  (orangey-bits-accent-5             "#A59483")
-  (orangey-bits-accent-6             "#BB8E61"))
+  (orangey-bits-accent-6             "#F72A00")
+  (orangey-bits-accent-4             "#FF3A00")
+  (orangey-bits-accent-5             "#FF4A00")
+  (orangey-bits-accent-1             "#FF5A00")
+  (orangey-bits-accent-2             "#FF6A00")
+  (orangey-bits-accent-3             "#FF7A00"))
 
  ((default                                   (:foreground orangey-bits-foreground0 :background orangey-bits-background0))
   (highlight                                 (:foreground orangey-bits-foreground0 :background orangey-bits-mid_cyan))
@@ -291,15 +300,15 @@
 
   (js2-warning                               (:underline (:color orangey-bits-bright_yellow :style 'wave)))
   (js2-error                                 (:underline (:color orangey-bits-bright_red :style 'wave)))
-  (js2-external-variable                     (:underline (:color orangey-bits-bright_aqua :style 'wave)))
+  (js2-external-variable                     (:underline (:color orangey-bits-bright_teal :style 'wave)))
   (js2-jsdoc-tag                             (:foreground orangey-bits-medium :background nil))
   (js2-jsdoc-type                            (:foreground orangey-bits-foreground4 :background nil))
   (js2-jsdoc-value                           (:foreground orangey-bits-foreground3 :background nil))
-  (js2-function-param                        (:foreground orangey-bits-bright_aqua :background nil))
+  (js2-function-param                        (:foreground orangey-bits-bright_teal :background nil))
   (js2-function-call                         (:foreground orangey-bits-bright_blue :background nil))
   (js2-instance-member                       (:foreground orangey-bits-bright_orange :background nil))
   (js2-private-member                        (:foreground orangey-bits-faded_yellow :background nil))
-  (js2-private-function-call                 (:foreground orangey-bits-faded_aqua :background nil))
+  (js2-private-function-call                 (:foreground orangey-bits-faded_teal :background nil))
   (js2-jsdoc-html-tag-name                   (:foreground orangey-bits-foreground4 :background nil))
   (js2-jsdoc-html-tag-delimiter              (:foreground orangey-bits-foreground3 :background nil))
 
@@ -311,7 +320,7 @@
   (haskell-interactive-face-result           (:foreground orangey-bits-foreground3 :background nil))
   (haskell-literate-comment-face             (:foreground orangey-bits-foreground0 :background nil))
   (haskell-pragma-face                       (:foreground orangey-bits-medium :background nil))
-  (haskell-constructor-face                  (:foreground orangey-bits-neutral_aqua :background nil))
+  (haskell-constructor-face                  (:foreground orangey-bits-neutral_teal :background nil))
 
   ;; MODE SUPPORT: org-mode)
   (org-agenda-date-today                     (:foreground orangey-bits-foreground2 :slant 'italic :weight 'bold))
@@ -328,7 +337,7 @@
   (org-level-2                               (:foreground orangey-bits-bright_green))
   (org-level-3                               (:foreground orangey-bits-bright_blue))
   (org-level-4                               (:foreground orangey-bits-bright_yellow))
-  (org-level-5                               (:foreground orangey-bits-faded_aqua))
+  (org-level-5                               (:foreground orangey-bits-faded_teal))
   (org-level-6                               (:foreground orangey-bits-bright_green))
   (org-level-7                               (:foreground orangey-bits-bright_red))
   (org-level-8                               (:foreground orangey-bits-bright_blue))
@@ -349,7 +358,7 @@
   (org-mode-line-clock                       (:foreground orangey-bits-foreground2 :background orangey-bits-background0))
   (org-mode-line-clock-overrun               (:foreground orangey-bits-black :background orangey-bits-bright_red))
   (org-ellipsis                              (:foreground orangey-bits-bright_yellow :underline t))
-  (org-footnote                              (:foreground orangey-bits-faded_aqua :underline t))
+  (org-footnote                              (:foreground orangey-bits-faded_teal :underline t))
 
   ;; MODE SUPPORT: powerline)
   (powerline-active1                         (:background orangey-bits-background2 :inherit 'mode-line))
@@ -378,10 +387,10 @@
   (sml/modified                              (:foreground orangey-bits-neutral_blue))
   (sml/vc                                    (:foreground orangey-bits-faded_green))
   (sml/vc-edited                             (:foreground orangey-bits-bright_green))
-  (sml/charging                              (:foreground orangey-bits-faded_aqua))
-  (sml/discharging                           (:foreground orangey-bits-faded_aqua :weight 'bold))
+  (sml/charging                              (:foreground orangey-bits-faded_teal))
+  (sml/discharging                           (:foreground orangey-bits-faded_teal :weight 'bold))
   (sml/col-number                            (:foreground orangey-bits-neutral_orange))
-  (sml/position-percentage                   (:foreground orangey-bits-faded_aqua))
+  (sml/position-percentage                   (:foreground orangey-bits-faded_teal))
 
   ;; Matches and Isearch)
   (lazy-highlight                            (:foreground orangey-bits-foreground0 :background orangey-bits-background3))
@@ -401,7 +410,7 @@
   (anzu-match-1                              (:foreground orangey-bits-background0 :background orangey-bits-bright_green))
   (anzu-match-2                              (:foreground orangey-bits-background0 :background orangey-bits-bright_yellow))
   (anzu-match-3                              (:foreground orangey-bits-background0 :background orangey-bits-bright_cyan))
-  (anzu-replace-highlight                    (:background orangey-bits-background_aqua))
+  (anzu-replace-highlight                    (:background orangey-bits-background_teal))
   (anzu-replace-to                           (:background orangey-bits-background_cyan))
 
   ;; MODE SUPPORT: el-search)
@@ -410,7 +419,7 @@
 
   ;; MODE SUPPORT: avy)
   (avy-lead-face-0                           (:foreground orangey-bits-bright_blue))
-  (avy-lead-face-1                           (:foreground orangey-bits-bright_aqua))
+  (avy-lead-face-1                           (:foreground orangey-bits-bright_teal))
   (avy-lead-face-2                           (:foreground orangey-bits-bright_purple))
   (avy-lead-face                             (:foreground orangey-bits-bright_red))
   (avy-background-face                       (:foreground orangey-bits-background3))
@@ -420,7 +429,7 @@
   (popup-face                                (:foreground orangey-bits-foreground0 :background orangey-bits-background1))
   (popup-menu-mouse-face                     (:foreground orangey-bits-foreground0 :background orangey-bits-faded_blue))
   (popup-menu-selection-face                 (:foreground orangey-bits-foreground0 :background orangey-bits-faded_blue))
-  (popup-tip-face                            (:foreground orangey-bits-foreground0_hard :background orangey-bits-background_aqua))
+  (popup-tip-face                            (:foreground orangey-bits-foreground0_hard :background orangey-bits-background_teal))
   ;; Use tip colors for the pos-tip color vars (see below))
 
   ;; Inherit ac-dabbrev from popup menu face)
@@ -465,9 +474,9 @@
 
   (diredp-dir-priv                           (:foreground orangey-bits-faded_cyan  :background orangey-bits-background_blue))
   (diredp-exec-priv                          (:foreground orangey-bits-faded_cyan  :background orangey-bits-background_blue))
-  (diredp-link-priv                          (:foreground orangey-bits-faded_aqua  :background orangey-bits-background_aqua))
+  (diredp-link-priv                          (:foreground orangey-bits-faded_teal  :background orangey-bits-background_teal))
   (diredp-read-priv                          (:foreground orangey-bits-bright_red  :background orangey-bits-background_red))
-  (diredp-write-priv                         (:foreground orangey-bits-bright_aqua :background orangey-bits-background_aqua))
+  (diredp-write-priv                         (:foreground orangey-bits-bright_teal :background orangey-bits-background_teal))
 
   ;; MODE SUPPORT: dired-subtree)
   (dired-subtree-depth-1-face                (:background nil))
@@ -513,7 +522,7 @@
   (helm-lisp-show-completion                 (:foreground orangey-bits-bright_red))
   (helm-locate-finish                        (:foreground orangey-bits-white :background orangey-bits-accent-5))
   (helm-match                                (:foreground orangey-bits-neutral_orange))
-  (helm-moccur-buffer                        (:foreground orangey-bits-bright_aqua :underline t))
+  (helm-moccur-buffer                        (:foreground orangey-bits-bright_teal :underline t))
   (helm-prefarg                              (:foreground orangey-bits-accent-6))
   (helm-selection                            (:foreground orangey-bits-white :background orangey-bits-background2))
   (helm-selection-line                       (:foreground orangey-bits-white :background orangey-bits-background2))
@@ -527,8 +536,8 @@
   (column-marker-3                           (:background orangey-bits-faded_cyan))
 
   ;; MODE SUPPORT: vline)
-  (vline                                     (:background orangey-bits-background_aqua))
-  (vline-visual                              (:background orangey-bits-background_aqua))
+  (vline                                     (:background orangey-bits-background_teal))
+  (vline-visual                              (:background orangey-bits-background_teal))
 
   ;; MODE SUPPORT: col-highlight)
   (col-highlight                             (:inherit 'vline))
@@ -547,7 +556,7 @@
   (ivy-current-match                         (:foreground orangey-bits-foreground0 :background orangey-bits-faded_blue))
   (ivy-minibuffer-match-face-1               (:background orangey-bits-background1))
   (ivy-minibuffer-match-face-2               (:background orangey-bits-background2))
-  (ivy-minibuffer-match-face-3               (:background orangey-bits-faded_aqua))
+  (ivy-minibuffer-match-face-3               (:background orangey-bits-faded_teal))
   (ivy-minibuffer-match-face-4               (:background orangey-bits-faded_purple))
   (ivy-confirm-face                          (:foreground orangey-bits-bright_green))
   (ivy-match-required-face                   (:foreground orangey-bits-bright_red))
@@ -596,7 +605,7 @@
   (magit-diff-add                            (:foreground orangey-bits-bright_green))
   (magit-diff-del                            (:foreground orangey-bits-bright_red))
   (magit-diff-file-header                    (:foreground orangey-bits-bright_blue))
-  (magit-diff-hunk-header                    (:foreground orangey-bits-neutral_aqua))
+  (magit-diff-hunk-header                    (:foreground orangey-bits-neutral_teal))
   (magit-diff-merge-current                  (:background orangey-bits-background_yellow))
   (magit-diff-merge-diff3-separator          (:foreground orangey-bits-neutral_orange :weight 'bold))
   (magit-diff-merge-proposed                 (:background orangey-bits-background_green))
@@ -608,18 +617,18 @@
   (magit-key-mode-button-face                (:foreground orangey-bits-neutral_orange :weight 'bold))
   (magit-key-mode-header-face                (:foreground orangey-bits-foreground4 :weight 'bold))
   (magit-key-mode-switch-face                (:foreground orangey-bits-accent-6 :weight 'bold))
-  (magit-log-author                          (:foreground orangey-bits-neutral_aqua))
+  (magit-log-author                          (:foreground orangey-bits-neutral_teal))
   (magit-log-date                            (:foreground orangey-bits-faded_orange))
   (magit-log-graph                           (:foreground orangey-bits-foreground1))
   (magit-log-head-label-bisect-bad           (:foreground orangey-bits-bright_red))
   (magit-log-head-label-bisect-good          (:foreground orangey-bits-bright_green))
   (magit-log-head-label-bisect-skip          (:foreground orangey-bits-neutral_yellow))
   (magit-log-head-label-default              (:foreground orangey-bits-neutral_blue))
-  (magit-log-head-label-head                 (:foreground orangey-bits-foreground0 :background orangey-bits-background_aqua))
+  (magit-log-head-label-head                 (:foreground orangey-bits-foreground0 :background orangey-bits-background_teal))
   (magit-log-head-label-local                (:foreground orangey-bits-faded_blue :weight 'bold))
   (magit-log-head-label-patches              (:foreground orangey-bits-faded_orange))
   (magit-log-head-label-remote               (:foreground orangey-bits-neutral_blue :weight 'bold))
-  (magit-log-head-label-tags                 (:foreground orangey-bits-neutral_aqua))
+  (magit-log-head-label-tags                 (:foreground orangey-bits-neutral_teal))
   (magit-log-head-label-wip                  (:foreground orangey-bits-neutral_red))
   (magit-log-message                         (:foreground orangey-bits-foreground1))
   (magit-log-reflog-label-amend              (:foreground orangey-bits-bright_blue))
@@ -654,7 +663,7 @@
   (magit-sequence-drop                       (:foreground orangey-bits-faded_red))
   (magit-sequence-head                       (:foreground orangey-bits-faded_cyan))
   (magit-sequence-part                       (:foreground orangey-bits-bright_yellow))
-  (magit-sequence-stop                       (:foreground orangey-bits-bright_aqua))
+  (magit-sequence-stop                       (:foreground orangey-bits-bright_teal))
   (magit-sequence-pick                       (:inherit 'default))
   (magit-filename                            (:weight 'normal))
   (magit-refname-wip                         (:inherit 'magit-refname))
@@ -692,7 +701,7 @@
   (message-header-xheader                     (:foreground orangey-bits-faded_cyan))
   (message-separator                          (:foreground orangey-bits-faded_cyan))
   (message-cited-text                         (:foreground orangey-bits-foreground3))
-  (message-mml                                (:foreground orangey-bits-faded_aqua))
+  (message-mml                                (:foreground orangey-bits-faded_teal))
 
   (button                                   (:inherit 'link))
   (bold                                     (:weight 'bold))
@@ -745,7 +754,7 @@
   (compilation-column-number                (:inherit 'font-lock-doc-face))
   (compilation-error                        (:inherit 'error))
   (compilation-line-number                  (:inherit 'font-lock-keyword-face))
-  (compilation-mode-line-exit               (:weight 'bold :foreground orangey-bits-mid_aqua :inherit 'compilation-info))
+  (compilation-mode-line-exit               (:weight 'bold :foreground orangey-bits-mid_teal :inherit 'compilation-info))
   (compilation-mode-line-run                (:inherit 'compilation-warning))
   (compilation-warning                      (:inherit 'warning))
 
@@ -790,7 +799,7 @@
   (diff-hunk-header                         (:inherit 'diff-header))
   (diff-index                               (:inherit 'diff-file-header))
   (diff-nonexistent                         (:inherit 'diff-file-header))
-  (diff-refine-added                        (:background orangey-bits-mid_aqua :inherit 'diff-refine-change))
+  (diff-refine-added                        (:background orangey-bits-mid_teal :inherit 'diff-refine-change))
   (diff-refine-changed                      (:background orangey-bits-foreground4))
   (diff-refine-removed                      (:background orangey-bits-muted_red :inherit 'diff-refine-change))
 
@@ -814,8 +823,8 @@
   (diredfl-date-time                        (:foreground orangey-bits-accent-5))
   (diredfl-deletion                         (:foreground orangey-bits-faded_red))
   (diredfl-deletion-file-name               (:foreground orangey-bits-faded_red))
-  (diredfl-file-name                        (:foreground orangey-bits-faded_aqua))
-  (diredfl-file-suffix                      (:foreground orangey-bits-faded_aqua))
+  (diredfl-file-name                        (:foreground orangey-bits-faded_teal))
+  (diredfl-file-suffix                      (:foreground orangey-bits-faded_teal))
   (diredfl-flag-mark                        (:foreground orangey-bits-bright_cyan))
   (diredfl-flag-mark-line                   (:foreground orangey-bits-foreground0 :background orangey-bits-background1))
 
@@ -829,7 +838,7 @@
   (diredfl-no-priv                          (:foreground orangey-bits-foreground4 :background orangey-bits-background1))
   (diredfl-other-priv                       (:background orangey-bits-background1))
   (diredfl-rare-priv                        (:background orangey-bits-background1))
-  (diredfl-read-priv                        (:foreground orangey-bits-bright_aqua :background orangey-bits-background1))
+  (diredfl-read-priv                        (:foreground orangey-bits-bright_teal :background orangey-bits-background1))
   (diredfl-write-priv                       (:foreground orangey-bits-bright_green :background orangey-bits-background1))
 
   (diredfl-symlink                          (:foreground orangey-bits-neutral_cyan))
@@ -850,7 +859,7 @@
   (eww-form-text                            (:box (:line-width 1) :foreground orangey-bits-white :background orangey-bits-background2))
   (eww-form-textarea                        (:box (:line-width 1) :foreground orangey-bits-black :background orangey-bits-neutral_purple))
   (eww-invalid-certificate                  (:weight 'bold :foreground orangey-bits-faded_red))
-  (eww-valid-certificate                    (:weight 'bold :foreground orangey-bits-mid_aqua))
+  (eww-valid-certificate                    (:weight 'bold :foreground orangey-bits-mid_teal))
 
   (ffap                                     (:inherit 'highlight))
 
@@ -871,7 +880,7 @@
   (flycheck-fringe-error                    (:inherit 'error))
   (flycheck-fringe-info                     (:inherit 'success))
   (flycheck-fringe-warning                  (:inherit 'warning))
-  (flycheck-info                            (:underline (:style 'wave :color orangey-bits-mid_aqua)))
+  (flycheck-info                            (:underline (:style 'wave :color orangey-bits-mid_teal)))
   (flycheck-warning                         (:underline (:style 'wave :color orangey-bits-bright_red)))
 
   (flymake-errline                          (:underline (:style 'wave :color orangey-bits-faded_red)))
@@ -1045,7 +1054,7 @@
 
   (minibuffer-complete-cycle                (:inherit 'secondary-selection))
 
-  (mm-command-output                        (:foreground orangey-bits-mid_aqua))
+  (mm-command-output                        (:foreground orangey-bits-mid_teal))
 
   (mode-line-buffer-id                      (:weight 'bold))
   (mode-line-emphasis                       (:weight 'bold))
@@ -1156,157 +1165,19 @@
   (widget-single-line-field                 (:background orangey-bits-background4))
 
   (yas--field-debug-face nil)
-  (yas-field-highlight-face                 (:inherit ('quote 'region))))
+  (yas-field-highlight-face                 (:inherit ('quote 'region)))))
 
- (defface orangey-bits-modeline-one-active
-   `((t
-      (:foreground ,orangey-bits-faded_green
-                   :background ,orangey-bits-background_cyan
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,orangey-bits-background_cyan :style nil))))
-   "orangey-bits modeline active one")
-
- (defface orangey-bits-modeline-one-inactive
-   `((t
-      (:foreground ,orangey-bits-bright_green
-                   :background ,orangey-bits-muted_blue
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,orangey-bits-muted_blue :style nil))))
-   "orangey-bits modeline inactive one")
-
- (defface orangey-bits-modeline-two-active
-   `((t
-      (:foreground ,orangey-bits-bright_green
-                   :background ,orangey-bits-muted_blue
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,orangey-bits-muted_blue :style nil))))
-   "orangey-bits modeline active two")
-
- (defface orangey-bits-modeline-two-inactive
-   `((t
-      (:foreground ,orangey-bits-faded_green
-                   :background ,orangey-bits-background_cyan
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,orangey-bits-background_cyan :style nil))))
-   "orangey-bits modeline inactive two")
-
- (defface orangey-bits-modeline-three-active
-   `((t
-      (:foreground ,orangey-bits-background_cyan
-                   :background ,orangey-bits-muted_blue
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,orangey-bits-muted_blue :style nil))))
-   "orangey-bits modeline active three")
-
- (defface orangey-bits-modeline-three-inactive
-   `((t
-      (:foreground ,orangey-bits-neutral_blue
-                   :background ,orangey-bits-background_cyan
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,orangey-bits-background_cyan :style nil))))
-   "orangey-bits modeline inactive three")
-
- (defface orangey-bits-modeline-four-active
-   `((t
-      (:foreground ,orangey-bits-white
-                   :background ,orangey-bits-muted_blue
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,orangey-bits-muted_blue :style nil))))
-   "orangey-bits modeline active four")
-
- (defface orangey-bits-modeline-four-inactive
-   `((t
-      (:foreground ,orangey-bits-muted_blue
-                   :background ,orangey-bits-black
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,orangey-bits-black :style nil))))
-   "orangey-bits modeline inactive four")
-
- (custom-theme-set-variables 'orangey-bits
-                             `(pos-tip-foreground-color ,orangey-bits-foreground0_hard)
-                             `(pos-tip-background-color ,orangey-bits-background_aqua)
-                             `(ansi-color-names-vector [,orangey-bits-background1
-                                                        ,orangey-bits-bright_red
-                                                        ,orangey-bits-bright_green
-                                                        ,orangey-bits-bright_yellow
-                                                        ,orangey-bits-bright_blue
-                                                        ,orangey-bits-bright_purple
-                                                        ,orangey-bits-bright_cyan
-                                                        ,orangey-bits-foreground1])))
-
-(defun orangey-bits-modeline-one ()
-  "Optional modeline style one for orangey-bits."
-  (interactive)
-  (set-face-attribute 'mode-line nil
-                      :foreground (face-attribute 'orangey-bits-modeline-one-active :foreground)
-                      :background (face-attribute 'orangey-bits-modeline-one-active :background)
-                      :height 120
-                      :inverse-video nil
-                      :box `(:line-width 6 :color ,(face-attribute 'orangey-bits-modeline-one-active :background) :style nil))
-  (set-face-attribute 'mode-line-inactive nil
-                      :foreground (face-attribute 'orangey-bits-modeline-one-inactive :foreground)
-                      :background (face-attribute 'orangey-bits-modeline-one-inactive :background)
-                      :height 120
-                      :inverse-video nil
-                      :box `(:line-width 6 :color ,(face-attribute 'orangey-bits-modeline-one-inactive :background) :style nil)))
-
-(defun orangey-bits-modeline-two ()
-  "Optional modeline style two for orangey-bits."
-  (interactive)
-  (set-face-attribute 'mode-line nil
-                      :foreground (face-attribute 'orangey-bits-modeline-two-active :foreground)
-                      :background (face-attribute 'orangey-bits-modeline-two-active :background)
-                      :height 120
-                      :inverse-video nil
-                      :box `(:line-width 6 :color ,(face-attribute 'orangey-bits-modeline-two-active :background) :style nil))
-  (set-face-attribute 'mode-line-inactive nil
-                      :foreground (face-attribute 'orangey-bits-modeline-two-inactive :foreground)
-                      :background (face-attribute 'orangey-bits-modeline-two-inactive :background)
-                      :height 120
-                      :inverse-video nil
-                      :box `(:line-width 6 :color ,(face-attribute 'orangey-bits-modeline-two-inactive :background) :style nil)))
-
-(defun orangey-bits-modeline-three ()
-  "Optional modeline style three for orangey-bits."
-  (interactive)
-  (set-face-attribute 'mode-line nil
-                      :foreground (face-attribute 'orangey-bits-modeline-three-active :foreground)
-                      :background (face-attribute 'orangey-bits-modeline-three-active :background)
-                      :height 120
-                      :inverse-video nil
-                      :box `(:line-width 6 :color ,(face-attribute 'orangey-bits-modeline-three-active :background) :style nil))
-  (set-face-attribute 'mode-line-inactive nil
-                      :foreground (face-attribute 'orangey-bits-modeline-three-inactive :foreground)
-                      :background (face-attribute 'orangey-bits-modeline-three-inactive :background)
-                      :height 120
-                      :inverse-video nil
-                      :box `(:line-width 6 :color ,(face-attribute 'orangey-bits-modeline-three-inactive :background) :style nil)))
-
-(defun orangey-bits-modeline-four ()
-  "Optional modeline style four for orangey-bits."
-  (interactive)
-  (set-face-attribute 'mode-line nil
-                      :foreground (face-attribute 'orangey-bits-modeline-four-active :foreground)
-                      :background (face-attribute 'orangey-bits-modeline-four-active :background)
-                      :height 120
-                      :inverse-video nil
-                      :box `(:line-width 6 :color ,(face-attribute 'orangey-bits-modeline-four-active :background) :style nil))
-  (set-face-attribute 'mode-line-inactive nil
-                      :foreground (face-attribute 'orangey-bits-modeline-four-inactive :foreground)
-                      :background (face-attribute 'orangey-bits-modeline-four-inactive :background)
-                      :height 120
-                      :inverse-video nil
-                      :box `(:line-width 6 :color ,(face-attribute 'orangey-bits-modeline-four-inactive :background) :style nil)))
-
-(defalias 'orangey-bits-modeline 'orangey-bits-modeline-one)
+(custom-theme-set-variables 'orangey-bits
+                            `(pos-tip-foreground-color ,orangey-bits-foreground0_hard)
+                            `(pos-tip-background-color ,orangey-bits-background_teal)
+                            `(ansi-color-names-vector [,orangey-bits-background1
+                                                       ,orangey-bits-bright_red
+                                                       ,orangey-bits-bright_green
+                                                       ,orangey-bits-bright_yellow
+                                                       ,orangey-bits-bright_blue
+                                                       ,orangey-bits-bright_purple
+                                                       ,orangey-bits-bright_cyan
+                                                       ,orangey-bits-foreground1]))
 
 ;;;###autoload
 (and load-file-name
@@ -1321,4 +1192,4 @@
 ;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode 1))
 ;; End:
 
-;;; orangey-bits-theme.el ends here
+;;; orangey-bits-theme.el ends here.
