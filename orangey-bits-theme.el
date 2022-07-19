@@ -117,12 +117,13 @@
 
   (orangey-bits-white                "#FFFFFF")
   (orangey-bits-black                "#000000")
-  (orangey-bits-accent-6             "#F72A00")
-  (orangey-bits-accent-4             "#FF3A00")
-  (orangey-bits-accent-5             "#FF4A00")
   (orangey-bits-accent-1             "#FF5A00")
   (orangey-bits-accent-2             "#FF6A00")
-  (orangey-bits-accent-3             "#FF7A00"))
+  (orangey-bits-accent-3             "#FF7A00")
+  (orangey-bits-accent-4             "#FF3A00")
+  (orangey-bits-accent-5             "#FF4A00")
+  (orangey-bits-accent-6             "#F72A00"))
+
 
  ((default                                   (:foreground orangey-bits-foreground0 :background orangey-bits-background0))
   (highlight                                 (:foreground orangey-bits-foreground0 :background orangey-bits-background4))
@@ -142,7 +143,7 @@
 
   (linum                                     (:foreground orangey-bits-background4))
   (hl-line                                   (:background orangey-bits-background1))
-  (region                                    (:background orangey-bits-mid_green :distant-foreground orangey-bits-foreground0))
+  (region                                    (:background orangey-bits-accent-1 :distant-foreground orangey-bits-foreground0))
   (secondary-selection                       (:background orangey-bits-mid_orange))
   (cua-rectangle                             (:background orangey-bits-mid_green :distant-foreground orangey-bits-foreground0))
   (header-line                               (:foreground orangey-bits-accent-6 :background orangey-bits-background0 :bold nil))
@@ -790,9 +791,9 @@
   (diff-hunk-header                         (:inherit 'diff-header))
   (diff-index                               (:inherit 'diff-file-header))
   (diff-nonexistent                         (:inherit 'diff-file-header))
-  (diff-refine-added                        (:background orangey-bits-mid_teal :inherit 'diff-refine-change))
-  (diff-refine-changed                      (:background orangey-bits-background4))
-  (diff-refine-removed                      (:background orangey-bits-muted_red :inherit 'diff-refine-change))
+  (diff-refine-added                        (:background orangey-bits-background_green :inherit 'diff-refine-change))
+  (diff-refine-changed                      (:background orangey-bits-background_blue))
+  (diff-refine-removed                      (:background orangey-bits-background_red :inherit 'diff-refine-change))
 
   (dired-directory                          (:inherit 'font-lock-function-name-face))
   (dired-flagged                            (:inherit 'error))
