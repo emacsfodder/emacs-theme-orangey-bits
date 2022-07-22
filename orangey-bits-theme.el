@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-orangey-bits
-;; Version: 0.2.1
+;; Version: 0.2.2
 ;; Package-Requires: ((autothemer "0.2"))
 
 ;;; Commentary:
