@@ -167,7 +167,7 @@
   (font-lock-type-face                              (:foreground orangey-bits-accent-3))
   (font-lock-warning-face                           (:foreground orangey-bits-bright_red :bold t))
 
-  ;; MODE SUPPORT: whitespace-mode)
+  ;; Mode support: whitespace-mode)
   (whitespace-space                          (:foreground orangey-bits-background-4 :background orangey-bits-background-0))
   (whitespace-hspace                         (:foreground orangey-bits-background-4 :background orangey-bits-background-0))
   (whitespace-tab                            (:foreground orangey-bits-background-4 :background orangey-bits-background-0))
@@ -179,7 +179,7 @@
   (whitespace-empty                          (:foreground nil :background nil))
   (whitespace-space-after-tab                (:foreground orangey-bits-background-4 :background orangey-bits-background-0))
 
-  ;; MODE SUPPORT: rainbow-delimiters)
+  ;; Mode support: rainbow-delimiters)
   (rainbow-delimiters-depth-1-face           (:foreground orangey-bits-delimiter-1))
   (rainbow-delimiters-depth-2-face           (:foreground orangey-bits-delimiter-2))
   (rainbow-delimiters-depth-3-face           (:foreground orangey-bits-delimiter-3))
@@ -194,7 +194,7 @@
   (rainbow-delimiters-depth-12-face          (:foreground orangey-bits-delimiter-4))
   (rainbow-delimiters-unmatched-face         (:foreground orangey-bits-foreground-0 :background nil))
 
-  ;; MODE SUPPORT: rainbow-identifiers)
+  ;; Mode support: rainbow-identifiers)
   (rainbow-identifiers-identifier-1          (:foreground orangey-bits-identifiers-1))
   (rainbow-identifiers-identifier-2          (:foreground orangey-bits-identifiers-2))
   (rainbow-identifiers-identifier-3          (:foreground orangey-bits-identifiers-3))
@@ -211,7 +211,7 @@
   (rainbow-identifiers-identifier-14         (:foreground orangey-bits-identifiers-14))
   (rainbow-identifiers-identifier-15         (:foreground orangey-bits-identifiers-15))
 
-  ;; MODE SUPPORT: ido)
+  ;; Mode support: ido)
   (ido-indicator                             (:background orangey-bits-bright_red :foreground orangey-bits-bright_yellow))
   (ido-subdir                                (:foreground orangey-bits-foreground-3))
   (ido-first-match                           (:foreground orangey-bits-faded_cyan :background orangey-bits-background-0_hard))
@@ -220,20 +220,20 @@
   (ido-vertical-only-match-face              (:foreground orangey-bits-faded_cyan))
   (ido-vertical-first-match-face             (:foreground orangey-bits-faded_cyan :background orangey-bits-background-_blue))
 
-  ;; MODE SUPPORT: linum-relative
+  ;; Mode support: linum-relative
   (linum-relative-current-face               (:foreground orangey-bits-foreground-4 :background orangey-bits-background-1))
 
-  ;; MODE SUPPORT: highlight-indentation-mode
+  ;; Mode support: highlight-indentation-mode
   (highlight-indentation-current-column-face (:background orangey-bits-background-4))
   (highlight-indentation-face                (:background orangey-bits-background-1))
 
-  ;; MODE SUPPORT: highlight-numbers
+  ;; Mode support: highlight-numbers
   (highlight-numbers-number                  (:foreground orangey-bits-foreground-0_hard :bold t))
 
-  ;; MODE SUPPORT: highlight-symbol
+  ;; Mode support: highlight-symbol
   (highlight-symbol-face                     (:foreground orangey-bits-neutral_purple))
 
-  ;; MODE SUPPORT: hi-lock
+  ;; Mode support: hi-lock
   (hi-blue                                   (:foreground orangey-bits-background-0_hard :background orangey-bits-bright_blue))
   (hi-green                                  (:foreground orangey-bits-background-0_hard :background orangey-bits-bright_green))
   (hi-pink                                   (:foreground orangey-bits-background-0_hard :background orangey-bits-bright_purple))
@@ -244,48 +244,48 @@
   (hi-black-b                                (:foreground orangey-bits-bright_orange :background orangey-bits-background-0_hard :bold t))
   (hi-black-hb                               (:foreground orangey-bits-bright_cyan :background orangey-bits-background-0_hard :bold t))
 
-  ;; MODE SUPPORT: smartparens
+  ;; Mode support: smartparens
   (sp-pair-overlay-face                      (:background orangey-bits-background-2))
   (sp-show-pair-match-face                   (:background orangey-bits-background-2)) ;; Pair tags highlight
   (sp-show-pair-mismatch-face                (:background orangey-bits-bright_red)) ;; Highlight for bracket without pair
 
-  ;; MODE SUPPORT: auctex
+  ;; Mode support: auctex
   (font-latex-math-face                      (:foreground orangey-bits-accent-3))
   (font-latex-sectioning-5-face              (:foreground orangey-bits-neutral_green))
   (font-latex-string-face                    (:inherit 'font-lock-string-face))
   (font-latex-warning-face                   (:inherit 'warning))
 
-  ;; MODE SUPPORT: elscreen)
+  ;; Mode support: elscreen)
   (elscreen-tab-background-face              (:background orangey-bits-background-0 :box nil)) ;; Tab bar, not the tabs)
   (elscreen-tab-control-face                 (:foreground orangey-bits-neutral_red :background orangey-bits-background-2 :box nil :underline nil)) ;; The controls)
   (elscreen-tab-current-screen-face          (:foreground orangey-bits-background-0 :background orangey-bits-background-4 :box nil)) ;; Current tab)
   (elscreen-tab-other-screen-face            (:foreground orangey-bits-foreground-4 :background orangey-bits-background-2 :box nil :underline nil)) ;; Inactive tab)
 
-  ;; MODE SUPPORT: embrace)
+  ;; Mode support: embrace)
   (embrace-help-pair-face                    (:foreground orangey-bits-bright_blue))
   (embrace-help-separator-face               (:foreground orangey-bits-bright_orange))
   (embrace-help-key-face                     (:weight 'bold orangey-bits-bright_green))
   (embrace-help-mark-func-face               (:foreground orangey-bits-bright_cyan))
 
-  ;; MODE SUPPORT: ag (The Silver Searcher))
+  ;; Mode support: ag (The Silver Searcher))
   (ag-hit-face                               (:foreground orangey-bits-neutral_blue))
   (ag-match-face                             (:foreground orangey-bits-neutral_red))
 
-  ;; MODE SUPPORT: RipGrep)
+  ;; Mode support: RipGrep)
   (ripgrep-hit-face                          (:inherit 'ag-hit-face))
   (ripgrep-match-face                        (:inherit 'ag-match-face))
 
-  ;; MODE SUPPORT: diff)
+  ;; Mode support: diff)
   (diff-changed                              (:foreground orangey-bits-foreground-1 :background nil))
   (diff-added                                (:foreground orangey-bits-neutral_green :background nil))
   (diff-removed                              (:foreground orangey-bits-neutral_red :background nil))
 
-  ;; MODE SUPPORT: diff-indicator)
+  ;; Mode support: diff-indicator)
   (diff-indicator-changed                    (:inherit 'diff-changed))
   (diff-indicator-added                      (:inherit 'diff-added))
   (diff-indicator-removed                    (:inherit 'diff-removed))
 
-  ;; MODE SUPPORT: diff-hl)
+  ;; Mode support: diff-hl)
   (diff-hl-change                            (:inherit 'diff-changed))
   (diff-hl-delete                            (:inherit 'diff-removed))
   (diff-hl-insert                            (:inherit 'diff-added))
@@ -304,7 +304,7 @@
   (js2-jsdoc-html-tag-name                   (:foreground orangey-bits-foreground-4 :background nil))
   (js2-jsdoc-html-tag-delimiter              (:foreground orangey-bits-foreground-3 :background nil))
 
-  ;; MODE SUPPORT: haskell)
+  ;; Mode support: haskell)
   (haskell-interactive-face-compile-warning  (:underline (:color orangey-bits-bright_yellow :style 'wave)))
   (haskell-interactive-face-compile-error    (:underline (:color orangey-bits-bright_red :style 'wave)))
   (haskell-interactive-face-garbage          (:foreground orangey-bits-background-4 :background nil))
@@ -314,7 +314,7 @@
   (haskell-pragma-face                       (:foreground orangey-bits-medium :background nil))
   (haskell-constructor-face                  (:foreground orangey-bits-neutral_teal :background nil))
 
-  ;; MODE SUPPORT: org-mode)
+  ;; Mode support: org-mode)
   (org-agenda-date-today                     (:foreground orangey-bits-foreground-2 :slant 'italic :weight 'bold))
   (org-agenda-structure                      (:inherit 'font-lock-comment-face))
   (org-archived                              (:foreground orangey-bits-foreground-0 :weight 'bold))
@@ -352,13 +352,13 @@
   (org-ellipsis                              (:foreground orangey-bits-bright_yellow :underline t))
   (org-footnote                              (:foreground orangey-bits-faded_teal :underline t))
 
-  ;; MODE SUPPORT: powerline)
+  ;; Mode support: powerline)
   (powerline-active1                         (:background orangey-bits-background-2 :inherit 'mode-line))
   (powerline-active2                         (:background orangey-bits-background-1 :inherit 'mode-line))
   (powerline-inactive1                       (:background orangey-bits-medium :inherit 'mode-line-inactive))
   (powerline-inactive2                       (:background orangey-bits-background-2 :inherit 'mode-line-inactive))
 
-  ;; MODE SUPPORT: spaceline)
+  ;; Mode support: spaceline)
   (spaceline-evil-normal                     (:background orangey-bits-bright_blue :foreground orangey-bits-background-0))
   (spaceline-evil-insert                     (:background orangey-bits-bright_yellow :foreground orangey-bits-background-0))
   (spaceline-evil-visual                     (:background orangey-bits-bright_purple :foreground orangey-bits-background-0))
@@ -366,7 +366,7 @@
   (spaceline-evil-replace                    (:background orangey-bits-bright_orange :foreground orangey-bits-background-0))
   (spaceline-evil-emacs                      (:background orangey-bits-bright_red :foreground orangey-bits-background-0))
 
-  ;; MODE SUPPORT: smart-mode-line)
+  ;; Mode support: smart-mode-line)
   (sml/modes                                 (:foreground orangey-bits-foreground-0_hard :weight 'bold :bold t))
   (sml/minor-modes                           (:foreground orangey-bits-neutral_orange))
   (sml/filename                              (:foreground orangey-bits-foreground-0_hard :weight 'bold :bold t))
@@ -386,18 +386,18 @@
 
   ;; Matches and Isearch)
   (lazy-highlight                            (:foreground orangey-bits-foreground-0 :background orangey-bits-background-3))
-  (highlight                                 (:foreground orangey-bits-foreground-0_hard :background orangey-bits-faded_blue))
-  (match                                     (:foreground orangey-bits-foreground-0 :background orangey-bits-mid_orange))
+  (highlight                                 (:foreground orangey-bits-foreground-0_hard :background orangey-bits-background-3))
+  (match                                     (:foreground orangey-bits-foreground-0 :background orangey-bits-background-2))
 
-  ;; MODE SUPPORT: isearch)
-  (isearch                                   (:foreground orangey-bits-foreground-0 :background orangey-bits-mid_cyan))
-  (isearch-fail                              (:foreground orangey-bits-foreground-0_hard :background orangey-bits-faded_red))
+  ;; Mode support: isearch)
+  (isearch                                   (:foreground orangey-bits-foreground-0 :background orangey-bits-background-2))
+  (isearch-fail                              (:foreground orangey-bits-foreground-0_hard :background orangey-bits-background_red))
 
-  ;; MODE SUPPORT: show-paren)
+  ;; Mode support: show-paren)
   (show-paren-match                          (:foreground orangey-bits-foreground-0 :background orangey-bits-background-2))
-  (show-paren-mismatch                       (:foreground orangey-bits-foreground-0_hard :background orangey-bits-faded_red))
+  (show-paren-mismatch                       (:foreground orangey-bits-bright_red :background orangey-bits-background-3))
 
-  ;; MODE SUPPORT: anzu)
+  ;; Mode support: anzu)
   (anzu-mode-line                            (:foreground orangey-bits-foreground-0 :height 100 :background orangey-bits-faded_blue))
   (anzu-match-1                              (:foreground orangey-bits-background-0 :background orangey-bits-bright_green))
   (anzu-match-2                              (:foreground orangey-bits-background-0 :background orangey-bits-bright_yellow))
@@ -405,11 +405,11 @@
   (anzu-replace-highlight                    (:background orangey-bits-background-_teal))
   (anzu-replace-to                           (:background orangey-bits-background-_cyan))
 
-  ;; MODE SUPPORT: el-search)
+  ;; Mode support: el-search)
   (el-search-match                           (:background orangey-bits-background-_cyan))
   (el-search-other-match                     (:background orangey-bits-background-_blue))
 
-  ;; MODE SUPPORT: avy)
+  ;; Mode support: avy)
   (avy-lead-face-0                           (:foreground orangey-bits-bright_blue))
   (avy-lead-face-1                           (:foreground orangey-bits-bright_teal))
   (avy-lead-face-2                           (:foreground orangey-bits-bright_purple))
@@ -417,7 +417,7 @@
   (avy-background-face                       (:foreground orangey-bits-background-3))
   (avy-goto-char-timer-face                  (:inherit 'highlight))
 
-  ;; MODE SUPPORT: popup)
+  ;; Mode support: popup)
   (popup-face                                (:foreground orangey-bits-foreground-0 :background orangey-bits-background-1))
   (popup-menu-mouse-face                     (:foreground orangey-bits-foreground-0 :background orangey-bits-faded_blue))
   (popup-menu-selection-face                 (:foreground orangey-bits-foreground-0 :background orangey-bits-faded_blue))
@@ -425,15 +425,15 @@
   ;; Use tip colors for the pos-tip color vars (see below))
 
   ;; Inherit ac-dabbrev from popup menu face)
-  ;; MODE SUPPORT: ac-dabbrev)
+  ;; Mode support: ac-dabbrev)
   (ac-dabbrev-menu-face                      (:inherit 'popup-face))
   (ac-dabbrev-selection-face                 (:inherit 'popup-menu-selection-face))
 
-  ;; MODE SUPPORT: sh mode)
+  ;; Mode support: sh mode)
   (sh-heredoc                                (:foreground orangey-bits-accent-2 :background nil))
   (sh-quoted-exec                            (:foreground orangey-bits-accent-2 :background nil))
 
-  ;; MODE SUPPORT: company)
+  ;; Mode support: company)
   (company-echo                              (:inherit 'company-echo-common))
   (company-echo-common                       (:foreground orangey-bits-bright_blue :background nil))
   (company-preview-common                    (:underline orangey-bits-foreground-1))
@@ -450,7 +450,7 @@
   (company-tooltip-mouse                     (:foreground orangey-bits-background-0 :background orangey-bits-bright_blue))
   (company-tooltip-selection                 (:foreground orangey-bits-foreground-0 :background orangey-bits-faded_blue))
 
-  ;; MODE SUPPORT: dired+)
+  ;; Mode support: dired+)
   (diredp-file-name                          (:foreground orangey-bits-foreground-2))
   (diredp-file-suffix                        (:foreground orangey-bits-foreground-4))
   (diredp-compressed-file-suffix             (:foreground orangey-bits-faded_cyan))
@@ -470,7 +470,7 @@
   (diredp-read-priv                          (:foreground orangey-bits-bright_red  :background orangey-bits-background-_red))
   (diredp-write-priv                         (:foreground orangey-bits-bright_teal :background orangey-bits-background-_teal))
 
-  ;; MODE SUPPORT: dired-subtree)
+  ;; Mode support: dired-subtree)
   (dired-subtree-depth-1-face                (:background nil))
   (dired-subtree-depth-2-face                (:background nil))
   (dired-subtree-depth-3-face                (:background nil))
@@ -478,7 +478,7 @@
   (dired-subtree-depth-5-face                (:background nil))
   (dired-subtree-depth-6-face                (:background nil))
 
-  ;; MODE SUPPORT: helm)
+  ;; Mode support: helm)
   (helm-M-x-key                              (:foreground orangey-bits-neutral_orange))
   (helm-action                               (:foreground orangey-bits-white :underline t))
   (helm-bookmark-addressbook                 (:foreground orangey-bits-neutral_red))
@@ -522,29 +522,29 @@
   (helm-source-header                        (:foreground orangey-bits-foreground-2 :background orangey-bits-background-1))
   (helm-visible-mark                         (:foreground orangey-bits-black :background orangey-bits-foreground-3))
 
-  ;; MODE SUPPORT: column-marker)
+  ;; Mode support: column-marker)
   (column-marker-1                           (:background orangey-bits-faded_blue))
   (column-marker-2                           (:background orangey-bits-faded_purple))
   (column-marker-3                           (:background orangey-bits-faded_cyan))
 
-  ;; MODE SUPPORT: vline)
+  ;; Mode support: vline)
   (vline                                     (:background orangey-bits-background-_teal))
   (vline-visual                              (:background orangey-bits-background-_teal))
 
-  ;; MODE SUPPORT: col-highlight)
+  ;; Mode support: col-highlight)
   (col-highlight                             (:inherit 'vline))
 
-  ;; MODE SUPPORT: column-enforce-mode)
+  ;; Mode support: column-enforce-mode)
   (column-enforce-face                       (:foreground orangey-bits-background-4 :background orangey-bits-background-_red))
 
-  ;; MODE SUPPORT: hydra)
+  ;; Mode support: hydra)
   (hydra-face-red                            (:foreground orangey-bits-bright_red))
   (hydra-face-blue                           (:foreground orangey-bits-bright_blue))
   (hydra-face-pink                           (:foreground orangey-bits-identifiers-15))
   (hydra-face-amaranth                       (:foreground orangey-bits-faded_purple))
   (hydra-face-teal                           (:foreground orangey-bits-faded_cyan))
 
-  ;; MODE SUPPORT: ivy)
+  ;; Mode support: ivy)
   (ivy-current-match                         (:foreground orangey-bits-foreground-0 :background orangey-bits-faded_blue))
   (ivy-minibuffer-match-face-1               (:background orangey-bits-background-1))
   (ivy-minibuffer-match-face-2               (:background orangey-bits-background-2))
@@ -554,22 +554,22 @@
   (ivy-match-required-face                   (:foreground orangey-bits-bright_red))
   (ivy-remote                                (:foreground orangey-bits-neutral_blue))
 
-  ;; MODE SUPPORT: smerge)
+  ;; Mode support: smerge)
   ;; TODO: smerge-base, smerge-refined-changed)
-  (smerge-mine                               (:background orangey-bits-mid_purple))
-  (smerge-other                              (:background orangey-bits-mid_blue))
+  (smerge-mine                               (:background orangey-bits-background-2))
+  (smerge-other                              (:background orangey-bits-background-1))
   (smerge-markers                            (:background orangey-bits-background-0_soft))
   (smerge-refined-added                      (:background orangey-bits-background-_green))
   (smerge-refined-removed                    (:background orangey-bits-background-_red))
 
-  ;; MODE SUPPORT: git-gutter)
+  ;; Mode support: git-gutter)
   (git-gutter:separator                      (:inherit 'git-gutter+-separator))
   (git-gutter:modified                       (:inherit 'git-gutter+-modified))
   (git-gutter:added                          (:inherit 'git-gutter+-added))
   (git-gutter:deleted                        (:inherit 'git-gutter+-deleted))
   (git-gutter:unchanged                      (:inherit 'git-gutter+-unchanged))
 
-  ;; MODE SUPPORT: git-gutter+)
+  ;; Mode support: git-gutter+)
   (git-gutter+-commit-header-face            (:inherit 'font-lock-comment-face))
   (git-gutter+-added                         (:foreground orangey-bits-faded_green :background orangey-bits-muted_green))
   (git-gutter+-deleted                       (:foreground orangey-bits-faded_red :background orangey-bits-muted_red))
@@ -577,12 +577,12 @@
   (git-gutter+-separator                     (:foreground orangey-bits-faded_cyan :background orangey-bits-muted_cyan))
   (git-gutter+-unchanged                     (:foreground orangey-bits-faded_yellow :background orangey-bits-muted_yellow))
 
-  ;; MODE SUPPORT: git-gutter-fr+)
+  ;; Mode support: git-gutter-fr+)
   (git-gutter-fr+-added                      (:inherit 'git-gutter+-added))
   (git-gutter-fr+-deleted                    (:inherit 'git-gutter+-deleted))
   (git-gutter-fr+-modified                   (:inherit 'git-gutter+-modified))
 
-  ;; MODE SUPPORT: magit)
+  ;; Mode support: magit)
   (magit-branch                              (:foreground orangey-bits-accent-6 :background nil))
   (magit-branch-local                        (:foreground orangey-bits-accent-6 :background nil))
   (magit-branch-remote                       (:foreground orangey-bits-accent-5 :background nil))
@@ -664,7 +664,7 @@
   (magit-head                                (:inherit 'magit-branch-local))
   (magit-popup-disabled-argument             (:foreground orangey-bits-foreground-4))
 
-  ;; MODE SUPPORT: term)
+  ;; Mode support: term)
   (term-color-black                          (:foreground orangey-bits-background-1))
   (term-color-blue                           (:foreground orangey-bits-neutral_blue))
   (term-color-cyan                           (:foreground orangey-bits-neutral_cyan))
@@ -676,14 +676,14 @@
   (term-default-fg-color                     (:foreground orangey-bits-foreground-0))
   (term-default-bg-color                     (:background orangey-bits-background-0))
 
-  ;; MODE SUPPORT: Elfeed)
+  ;; Mode support: Elfeed)
   (elfeed-search-date-face                    (:foreground orangey-bits-muted_cyan))
   (elfeed-search-feed-face                    (:foreground orangey-bits-faded_cyan))
   (elfeed-search-tag-face                     (:foreground orangey-bits-foreground-3))
   (elfeed-search-title-face                   (:foreground orangey-bits-foreground-3 :bold nil))
   (elfeed-search-unread-title-face            (:foreground orangey-bits-foreground-0_hard :bold nil))
 
-  ;; MODE SUPPORT: message)
+  ;; Mode support: message)
   (message-header-to                          (:foreground orangey-bits-bright_cyan))
   (message-header-cc                          (:foreground orangey-bits-bright_cyan))
   (message-header-subject                     (:foreground orangey-bits-foreground-2))
