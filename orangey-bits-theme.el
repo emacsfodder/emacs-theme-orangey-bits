@@ -122,7 +122,14 @@
   (orangey-bits-accent-3             "#FF7A00")
   (orangey-bits-accent-4             "#FF3A00")
   (orangey-bits-accent-5             "#FF4A00")
-  (orangey-bits-accent-6             "#F72A00"))
+  (orangey-bits-accent-6             "#F72A00")
+
+  (orangey-bits-dark-accent-1        "#982F00")
+  (orangey-bits-dark-accent-2        "#882F00")
+  (orangey-bits-dark-accent-3        "#782600")
+  (orangey-bits-dark-accent-4        "#681A00")
+  (orangey-bits-dark-accent-5        "#581300")
+  (orangey-bits-dark-accent-6        "#481100"))
 
 
  ((default                                   (:foreground orangey-bits-foreground-0 :background orangey-bits-background-0))
@@ -405,19 +412,19 @@
 
   ;; Mode support: isearch
   (isearch                                   (:foreground orangey-bits-foreground-0-hard :background orangey-bits-background-2))
-  (isearch-group-1                           (:foreground orangey-bits-foreground-0-hard :background orangey-bits-background-3))
-  (isearch-group-2                           (:foreground orangey-bits-foreground-0-hard :background orangey-bits-background-4))
+  (isearch-group-1                           (:foreground orangey-bits-foreground-0-hard :background orangey-bits-dark-accent-3))
+  (isearch-group-2                           (:foreground orangey-bits-foreground-0-hard :background orangey-bits-dark-accent-5))
   (isearch-fail                              (:foreground orangey-bits-foreground-0-hard :background orangey-bits-background-red))
 
   ;; Mode support: show-paren
-  (show-paren-match                          (:foreground orangey-bits-foreground-0 :background orangey-bits-background-2))
+  (show-paren-match                          (:foreground orangey-bits-medium :background orangey-bits-background-3))
   (show-paren-mismatch                       (:foreground orangey-bits-bright-red :background orangey-bits-background-3))
 
   ;; Mode support: anzu
   (anzu-mode-line                            (:foreground orangey-bits-foreground-0 :height 100 :background orangey-bits-background-3))
-  (anzu-match-1                              (:foreground orangey-bits-foreground-0 :background orangey-bits-accent-3))
-  (anzu-match-2                              (:foreground orangey-bits-foreground-0 :background orangey-bits-accent-2))
-  (anzu-match-3                              (:foreground orangey-bits-foreground-0 :background orangey-bits-accent-1))
+  (anzu-match-1                              (:foreground orangey-bits-foreground-0 :background orangey-bits-dark-accent-3))
+  (anzu-match-2                              (:foreground orangey-bits-foreground-0 :background orangey-bits-dark-accent-2))
+  (anzu-match-3                              (:foreground orangey-bits-foreground-0 :background orangey-bits-dark-accent-1))
   (anzu-replace-highlight                    (:background orangey-bits-background-4))
   (anzu-replace-to                           (:background orangey-bits-background-3))
 
@@ -593,16 +600,16 @@
   (git-gutter-fr+-modified                   (:inherit 'git-gutter+-modified))
 
   ;; Mode support: git-gutter
-  (git-gutter:separator                      (:inherit 'git-gutter+-separator))
-  (git-gutter:modified                       (:inherit 'git-gutter+-modified))
-  (git-gutter:added                          (:inherit 'git-gutter+-added))
-  (git-gutter:deleted                        (:inherit 'git-gutter+-deleted))
-  (git-gutter:unchanged                      (:inherit 'git-gutter+-unchanged))
+  (git-gutter:added                         (:foreground orangey-bits-bright-green :background orangey-bits-background-green))
+  (git-gutter:deleted                       (:foreground orangey-bits-bright-red :background orangey-bits-background-red))
+  (git-gutter:modified                      (:foreground orangey-bits-bright-purple :background orangey-bits-background-purple))
+  (git-gutter:separator                     (:foreground orangey-bits-bright-cyan :background orangey-bits-muted-cyan))
+  (git-gutter:unchanged                     (:foreground orangey-bits-bright-yellow :background orangey-bits-muted-yellow))
 
   ;; Mode support: git-gutter-fringe
-  (git-gutter-fr:modified                    (:inherit 'git-gutter+-modified))
-  (git-gutter-fr:added                       (:inherit 'git-gutter+-added))
-  (git-gutter-fr:deleted                     (:inherit 'git-gutter+-deleted))
+  (git-gutter-fr:modified                      (:foreground orangey-bits-bright-purple :background orangey-bits-background-purple))
+  (git-gutter-fr:added                         (:foreground orangey-bits-bright-green :background orangey-bits-background-green))
+  (git-gutter-fr:deleted                       (:foreground orangey-bits-bright-red :background orangey-bits-background-red))
 
   ;; Mode support: magit
   (magit-branch                              (:foreground orangey-bits-accent-6 :background nil))
@@ -618,7 +625,7 @@
   (magit-diff-removed-highlight              (:foreground orangey-bits-bright-red :background orangey-bits-background-red))
   (magit-diff-add                            (:foreground orangey-bits-bright-green))
   (magit-diff-del                            (:foreground orangey-bits-bright-red))
-  (magit-diff-file-header                    (:foreground orangey-bits-bright-blue))
+  (magit-diff-file-header                    (:foreground orangey-bits-foreground-0))
   (magit-diff-hunk-header                    (:foreground orangey-bits-neutral-teal))
   (magit-diff-merge-current                  (:background orangey-bits-background-yellow))
   (magit-diff-merge-diff3-separator          (:foreground orangey-bits-neutral-orange :weight 'bold))
