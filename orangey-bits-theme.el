@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-orangey-bits
-;; Version: 0.3.0
+;; Version: 0.4.0
 ;; Package-Requires: ((autothemer "0.2"))
 
 ;;; Commentary:
@@ -328,7 +328,6 @@
   (haskell-type-face                         (:inherit 'font-lock-type-face))
   (haskell-warning-face                      (:underline (:style 'wave :color orangey-bits-medium)))
 
-
   ;; Mode support: org-mode
   (org-agenda-date-today                     (:foreground orangey-bits-foreground-2 :slant 'italic :weight 'bold))
   (org-agenda-structure                      (:inherit 'font-lock-comment-face))
@@ -405,7 +404,9 @@
   (match                                     (:foreground orangey-bits-foreground-0 :background orangey-bits-background-2))
 
   ;; Mode support: isearch
-  (isearch                                   (:foreground orangey-bits-foreground-0 :background orangey-bits-background-2))
+  (isearch                                   (:foreground orangey-bits-foreground-0-hard :background orangey-bits-background-2))
+  (isearch-group-1                           (:foreground orangey-bits-foreground-0-hard :background orangey-bits-background-3))
+  (isearch-group-2                           (:foreground orangey-bits-foreground-0-hard :background orangey-bits-background-4))
   (isearch-fail                              (:foreground orangey-bits-foreground-0-hard :background orangey-bits-background-red))
 
   ;; Mode support: show-paren
@@ -413,23 +414,23 @@
   (show-paren-mismatch                       (:foreground orangey-bits-bright-red :background orangey-bits-background-3))
 
   ;; Mode support: anzu
-  (anzu-mode-line                            (:foreground orangey-bits-foreground-0 :height 100 :background orangey-bits-faded-blue))
-  (anzu-match-1                              (:foreground orangey-bits-background-0 :background orangey-bits-bright-green))
-  (anzu-match-2                              (:foreground orangey-bits-background-0 :background orangey-bits-bright-yellow))
-  (anzu-match-3                              (:foreground orangey-bits-background-0 :background orangey-bits-bright-cyan))
-  (anzu-replace-highlight                    (:background orangey-bits-background-teal))
-  (anzu-replace-to                           (:background orangey-bits-background-cyan))
+  (anzu-mode-line                            (:foreground orangey-bits-foreground-0 :height 100 :background orangey-bits-background-3))
+  (anzu-match-1                              (:foreground orangey-bits-foreground-0 :background orangey-bits-background-4))
+  (anzu-match-2                              (:foreground orangey-bits-foreground-0 :background orangey-bits-background-3))
+  (anzu-match-3                              (:foreground orangey-bits-foreground-0 :background orangey-bits-background-4))
+  (anzu-replace-highlight                    (:background orangey-bits-background-4))
+  (anzu-replace-to                           (:background orangey-bits-background-3))
 
   ;; Mode support: el-search
   (el-search-match                           (:background orangey-bits-background-cyan))
   (el-search-other-match                     (:background orangey-bits-background-blue))
 
   ;; Mode support: avy
-  (avy-lead-face-0                           (:foreground orangey-bits-bright-blue))
-  (avy-lead-face-1                           (:foreground orangey-bits-bright-teal))
-  (avy-lead-face-2                           (:foreground orangey-bits-bright-purple))
-  (avy-lead-face                             (:foreground orangey-bits-bright-red))
-  (avy-background-face                       (:foreground orangey-bits-background-3))
+  (avy-lead-face-0                           (:foreground orangey-bits-accent-4))
+  (avy-lead-face-1                           (:foreground orangey-bits-accent-1))
+  (avy-lead-face-2                           (:foreground orangey-bits-accent-2))
+  (avy-lead-face                             (:foreground orangey-bits-accent-3))
+  (avy-background-face                       (:foreground orangey-bits-background-4))
   (avy-goto-char-timer-face                  (:inherit 'highlight))
 
   ;; Mode support: popup
@@ -460,10 +461,10 @@
   (company-tooltip                           (:foreground orangey-bits-foreground-0-hard :background orangey-bits-background-1))
   (company-preview-common                    (:inherit 'font-lock-comment-face))
   (company-tooltip-common                    (:foreground orangey-bits-foreground-0 :background orangey-bits-background-1))
-  (company-tooltip-annotation                (:foreground orangey-bits-bright-blue :background orangey-bits-background-1))
-  (company-tooltip-common-selection          (:foreground orangey-bits-foreground-0 :background orangey-bits-faded-blue))
-  (company-tooltip-mouse                     (:foreground orangey-bits-background-0 :background orangey-bits-bright-blue))
-  (company-tooltip-selection                 (:foreground orangey-bits-foreground-0 :background orangey-bits-faded-blue))
+  (company-tooltip-annotation                (:foreground orangey-bits-foreground-0 :background orangey-bits-background-1))
+  (company-tooltip-common-selection          (:foreground orangey-bits-foreground-0 :background orangey-bits-background-2))
+  (company-tooltip-mouse                     (:foreground orangey-bits-foreground-0 :background orangey-bits-background-3))
+  (company-tooltip-selection                 (:foreground orangey-bits-foreground-0 :background orangey-bits-background-4))
 
   ;; Mode support: dired+
   (diredp-file-name                          (:foreground orangey-bits-foreground-2))
@@ -555,12 +556,13 @@
   ;; Mode support: hydra
   (hydra-face-red                            (:foreground orangey-bits-bright-red))
   (hydra-face-blue                           (:foreground orangey-bits-bright-blue))
-  (hydra-face-pink                           (:foreground orangey-bits-identifiers-15))
+  (hydra-face-pink                           (:foreground orangey-bits-bright-purple))
+
   (hydra-face-amaranth                       (:foreground orangey-bits-faded-purple))
   (hydra-face-teal                           (:foreground orangey-bits-faded-cyan))
 
   ;; Mode support: ivy
-  (ivy-current-match                         (:foreground orangey-bits-foreground-0 :background orangey-bits-faded-blue))
+  (ivy-current-match                         (:foreground orangey-bits-foreground-0 :background orangey-bits-background-3))
   (ivy-minibuffer-match-face-1               (:background orangey-bits-background-1))
   (ivy-minibuffer-match-face-2               (:background orangey-bits-background-2))
   (ivy-minibuffer-match-face-3               (:background orangey-bits-faded-teal))
@@ -577,6 +579,19 @@
   (smerge-refined-added                      (:background orangey-bits-background-green))
   (smerge-refined-removed                    (:background orangey-bits-background-red))
 
+  ;; Mode support: git-gutter+
+  (git-gutter+-added                         (:foreground orangey-bits-faded-green :background orangey-bits-background-green))
+  (git-gutter+-deleted                       (:foreground orangey-bits-faded-red :background orangey-bits-background-red))
+  (git-gutter+-modified                      (:foreground orangey-bits-faded-purple :background orangey-bits-background-purple))
+  (git-gutter+-separator                     (:foreground orangey-bits-faded-cyan :background orangey-bits-muted-cyan))
+  (git-gutter+-unchanged                     (:foreground orangey-bits-faded-yellow :background orangey-bits-muted-yellow))
+  (git-gutter+-commit-header-face            (:inherit 'font-lock-comment-face))
+
+  ;; Mode support: git-gutter-fr+
+  (git-gutter-fr+-added                      (:inherit 'git-gutter+-added))
+  (git-gutter-fr+-deleted                    (:inherit 'git-gutter+-deleted))
+  (git-gutter-fr+-modified                   (:inherit 'git-gutter+-modified))
+
   ;; Mode support: git-gutter
   (git-gutter:separator                      (:inherit 'git-gutter+-separator))
   (git-gutter:modified                       (:inherit 'git-gutter+-modified))
@@ -584,18 +599,10 @@
   (git-gutter:deleted                        (:inherit 'git-gutter+-deleted))
   (git-gutter:unchanged                      (:inherit 'git-gutter+-unchanged))
 
-  ;; Mode support: git-gutter+
-  (git-gutter+-commit-header-face            (:inherit 'font-lock-comment-face))
-  (git-gutter+-added                         (:foreground orangey-bits-faded-green :background orangey-bits-muted-green))
-  (git-gutter+-deleted                       (:foreground orangey-bits-faded-red :background orangey-bits-muted-red))
-  (git-gutter+-modified                      (:foreground orangey-bits-faded-purple :background orangey-bits-muted-purple))
-  (git-gutter+-separator                     (:foreground orangey-bits-faded-cyan :background orangey-bits-muted-cyan))
-  (git-gutter+-unchanged                     (:foreground orangey-bits-faded-yellow :background orangey-bits-muted-yellow))
-
-  ;; Mode support: git-gutter-fr+
-  (git-gutter-fr+-added                      (:inherit 'git-gutter+-added))
-  (git-gutter-fr+-deleted                    (:inherit 'git-gutter+-deleted))
-  (git-gutter-fr+-modified                   (:inherit 'git-gutter+-modified))
+  ;; Mode support: git-gutter-fringe
+  (git-gutter-fr:modified                    (:inherit 'git-gutter+-modified))
+  (git-gutter-fr:added                       (:inherit 'git-gutter+-added))
+  (git-gutter-fr:deleted                     (:inherit 'git-gutter+-deleted))
 
   ;; Mode support: magit
   (magit-branch                              (:foreground orangey-bits-accent-6 :background nil))
@@ -769,7 +776,7 @@
   (completions-common-part nil)
   (completions-first-difference             (:inherit 'bold))
 
-  (cua-global-mark                          (:foreground orangey-bits-black :background orangey-bits-foreground-0-hard))
+  (cua-global-mark                          (:foreground orangey-bits-white :background orangey-bits-background-3))
   (cua-rectangle-noselect                   (:foreground orangey-bits-white :background orangey-bits-background-4 :inherit 'region))
 
   (custom-button                            (:box (:line-width 2 :style 'released-button) :foreground orangey-bits-black :background orangey-bits-identifiers-1))
@@ -1075,7 +1082,7 @@
   (package-status-new                       (:inherit ('bold 'package-status-available)))
   (package-status-unsigned                  (:inherit 'font-lock-warning-face))
 
-  (popup-isearch-match                      (:background orangey-bits-bright-green :inherit 'default))
+  (popup-isearch-match                      (:background orangey-bits-background-green :inherit 'default))
   (popup-menu-face                          (:inherit 'popup-face))
   (popup-menu-summary-face                  (:inherit 'popup-summary-face))
   (popup-scroll-bar-background-face         (:background orangey-bits-neutral-purple))
