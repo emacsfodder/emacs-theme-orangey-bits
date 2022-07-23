@@ -415,9 +415,9 @@
 
   ;; Mode support: anzu
   (anzu-mode-line                            (:foreground orangey-bits-foreground-0 :height 100 :background orangey-bits-background-3))
-  (anzu-match-1                              (:foreground orangey-bits-foreground-0 :background orangey-bits-background-4))
-  (anzu-match-2                              (:foreground orangey-bits-foreground-0 :background orangey-bits-background-3))
-  (anzu-match-3                              (:foreground orangey-bits-foreground-0 :background orangey-bits-background-4))
+  (anzu-match-1                              (:foreground orangey-bits-foreground-0 :background orangey-bits-accent-3))
+  (anzu-match-2                              (:foreground orangey-bits-foreground-0 :background orangey-bits-accent-2))
+  (anzu-match-3                              (:foreground orangey-bits-foreground-0 :background orangey-bits-accent-1))
   (anzu-replace-highlight                    (:background orangey-bits-background-4))
   (anzu-replace-to                           (:background orangey-bits-background-3))
 
@@ -580,11 +580,11 @@
   (smerge-refined-removed                    (:background orangey-bits-background-red))
 
   ;; Mode support: git-gutter+
-  (git-gutter+-added                         (:foreground orangey-bits-faded-green :background orangey-bits-background-green))
-  (git-gutter+-deleted                       (:foreground orangey-bits-faded-red :background orangey-bits-background-red))
-  (git-gutter+-modified                      (:foreground orangey-bits-faded-purple :background orangey-bits-background-purple))
-  (git-gutter+-separator                     (:foreground orangey-bits-faded-cyan :background orangey-bits-muted-cyan))
-  (git-gutter+-unchanged                     (:foreground orangey-bits-faded-yellow :background orangey-bits-muted-yellow))
+  (git-gutter+-added                         (:foreground orangey-bits-bright-green :background orangey-bits-background-green))
+  (git-gutter+-deleted                       (:foreground orangey-bits-bright-red :background orangey-bits-background-red))
+  (git-gutter+-modified                      (:foreground orangey-bits-bright-purple :background orangey-bits-background-purple))
+  (git-gutter+-separator                     (:foreground orangey-bits-bright-cyan :background orangey-bits-muted-cyan))
+  (git-gutter+-unchanged                     (:foreground orangey-bits-bright-yellow :background orangey-bits-muted-yellow))
   (git-gutter+-commit-header-face            (:inherit 'font-lock-comment-face))
 
   ;; Mode support: git-gutter-fr+
