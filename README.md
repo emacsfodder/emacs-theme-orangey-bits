@@ -10,6 +10,18 @@ Orangey-Bits installation TODO.
 M-x package-install emacs-theme-orangey-bits
 ```
 
+## Screen candy...
+
+![](https://raw.githubusercontent.com/emacsfodder/emacs-theme-orangey-bits/images/orangey-bits-screenshot00001.png)
+
+![](https://raw.githubusercontent.com/emacsfodder/emacs-theme-orangey-bits/images/orangey-bits-screenshot00002.png)
+
+![](https://raw.githubusercontent.com/emacsfodder/emacs-theme-orangey-bits/images/orangey-bits-screenshot00003.png)
+
+![](https://raw.githubusercontent.com/emacsfodder/emacs-theme-orangey-bits/images/orangey-bits-screenshot00004.png)
+
+![](https://raw.githubusercontent.com/emacsfodder/emacs-theme-orangey-bits/images/orangey-bits-screenshot00005.png)
+
 ## Autothemer
 
 Orangey-Bits uses autothemer.  It dramatically improves developer happiness when writing themes for Emacs.
