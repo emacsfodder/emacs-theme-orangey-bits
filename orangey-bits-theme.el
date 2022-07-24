@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-orangey-bits
-;; Version: 0.4.0
+;; Version: 0.4.1
 ;; Package-Requires: ((autothemer "0.2"))
 
 ;;; Commentary:
@@ -235,7 +235,7 @@
   (highlight-indentation-face                (:background orangey-bits-background-1))
 
   ;; Mode support: highlight-numbers
-  (highlight-numbers-number                  (:foreground orangey-bits-foreground-0-hard :bold t))
+  (highlight-numbers-number                  (:foreground orangey-bits-foreground-1 :bold t))
 
   ;; Mode support: highlight-symbol
   (highlight-symbol-face                     (:foreground orangey-bits-neutral-purple))
@@ -269,23 +269,23 @@
   (elscreen-tab-other-screen-face            (:foreground orangey-bits-foreground-4 :background orangey-bits-background-2 :box nil :underline nil)) ;; Inactive tab)
 
   ;; Mode support: embrace
-  (embrace-help-pair-face                    (:foreground orangey-bits-bright-blue))
-  (embrace-help-separator-face               (:foreground orangey-bits-bright-orange))
-  (embrace-help-key-face                     (:weight 'bold orangey-bits-bright-green))
-  (embrace-help-mark-func-face               (:foreground orangey-bits-bright-cyan))
+  (embrace-help-pair-face                    (:foreground   orangey-bits-accent-1))
+  (embrace-help-separator-face               (:foreground   orangey-bits-accent-2))
+  (embrace-help-key-face                     (:foreground   orangey-bits-accent-3  :weight 'bold))
+  (embrace-help-mark-func-face               (:foreground   orangey-bits-accent-4))
 
   ;; Mode support: ag The Silver Searcher
-  (ag-hit-face                               (:foreground orangey-bits-neutral-blue))
-  (ag-match-face                             (:foreground orangey-bits-neutral-red))
+  (ag-hit-face                               (:foreground orangey-bits-foreground-1))
+  (ag-match-face                             (:foreground orangey-bits-foreground-2))
 
   ;; Mode support: RipGrep
   (ripgrep-hit-face                          (:inherit 'ag-hit-face))
   (ripgrep-match-face                        (:inherit 'ag-match-face))
 
   ;; Mode support: diff
-  (diff-changed                              (:foreground orangey-bits-foreground-1 :background nil))
-  (diff-added                                (:foreground orangey-bits-neutral-green :background nil))
-  (diff-removed                              (:foreground orangey-bits-neutral-red :background nil))
+  (diff-changed                              (:foreground orangey-bits-foreground-1 :background orangey-bits-background-purple))
+  (diff-added                                (:foreground orangey-bits-foreground-1 :background orangey-bits-background-green))
+  (diff-removed                              (:foreground orangey-bits-foreground-1 :background orangey-bits-background-red))
 
   ;; Mode support: diff-indicator
   (diff-indicator-changed                    (:inherit 'diff-changed))
