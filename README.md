@@ -1,6 +1,7 @@
 # Orangey-Bits
 
-A color theme for Emacs with Smashing Orangey Bits!
+A color theme for Emacs with Smashing Orangey Bits! It was inspired by my ancient emacs theme tangerine.
+which itself was inspired by old amber CRT, DEC VT terminals I used in the 80s.
 
 ## Installation
 
