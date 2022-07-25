@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-orangey-bits
-;; Version: 0.4.1
+;; Version: 0.4.2
 ;; Package-Requires: ((autothemer "0.2"))
 
 ;;; Commentary:
@@ -561,12 +561,11 @@
   (column-enforce-face                       (:foreground orangey-bits-background-4 :background orangey-bits-background-red))
 
   ;; Mode support: hydra
-  (hydra-face-red                            (:foreground orangey-bits-bright-red))
-  (hydra-face-blue                           (:foreground orangey-bits-bright-blue))
-  (hydra-face-pink                           (:foreground orangey-bits-bright-purple))
-
-  (hydra-face-amaranth                       (:foreground orangey-bits-faded-purple))
-  (hydra-face-teal                           (:foreground orangey-bits-faded-cyan))
+  (hydra-face-red                            (:foreground orangey-bits-accent-1))
+  (hydra-face-blue                           (:foreground orangey-bits-accent-2))
+  (hydra-face-pink                           (:foreground orangey-bits-accent-3))
+  (hydra-face-amaranth                       (:foreground orangey-bits-accent-4))
+  (hydra-face-teal                           (:foreground orangey-bits-accent-5))
 
   ;; Mode support: ivy
   (ivy-current-match                         (:foreground orangey-bits-foreground-0 :background orangey-bits-background-3))
@@ -1073,6 +1072,11 @@
   (next-error                               (:inherit 'region))
 
   (nobreak-space                            (:underline t :inherit 'escape-glyph))
+
+  (orderless-match-face-0                   (:foreground orangey-bits-accent-1))
+  (orderless-match-face-1                   (:foreground orangey-bits-accent-2))
+  (orderless-match-face-2                   (:foreground orangey-bits-accent-3))
+  (orderless-match-face-3                   (:foreground orangey-bits-accent-4))
 
   (package-description                      (:inherit 'default))
   (package-help-section-name                (:inherit ('bold 'font-lock-function-name-face)))
