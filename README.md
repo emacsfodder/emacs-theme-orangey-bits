@@ -23,11 +23,13 @@ M-x package-install emacs-theme-orangey-bits
 
 ![](https://raw.githubusercontent.com/emacsfodder/emacs-theme-orangey-bits/images/orangey-bits-screenshot00003.png)
 
-## Autothemer
+## How it was made
 
-Orangey-Bits uses autothemer.  It dramatically improves developer happiness when writing themes for Emacs.
+Orangey-bits was built with [Autothemer](https://github.com/jasonm23/autothemer)
+and [Kurecolor](https://github.com/emacsfodder/kurecolor). They dramatically
+improve developer happiness when writing themes for Emacs.
 
-If you're making Emacs themes, try it.
+If you're making Emacs themes you should check them out.
 
 ## Modes supported
 
