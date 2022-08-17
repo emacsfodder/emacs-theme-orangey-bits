@@ -1,3 +1,5 @@
+[![MELPA](http://stable.melpa.org/packages/orangey-bits-theme-badge.svg)](http://stable.melpa.org/#/orangey-bits-theme) [![MELPA](http://melpa.org/packages/orangey-bits-theme-badge.svg)](http://melpa.org/#/orangey-bits-theme)
+
 # Orangey-Bits
 
 A color theme for Emacs with Smashing Orangey Bits! It was inspired by my ancient emacs theme tangerine.
