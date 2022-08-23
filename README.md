@@ -7,6 +7,8 @@ which itself was inspired by old amber CRT, DEC VT terminals I used in the 80s.
 
 ![](https://raw.githubusercontent.com/emacsfodder/emacs-theme-orangey-bits/images/orangeybits.png)
 
+![](https://raw.githubusercontent.com/emacsfodder/emacs-theme-orangey-bits/master/palette.svg)
+
 ## Installation
 
 Orangey-Bits installation TODO.

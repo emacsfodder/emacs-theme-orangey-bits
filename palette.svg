@@ -1,0 +1,696 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="775px" height="2680px"
+     version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    text {
+    font-family: "Helvetica Neue";
+    fill: #FFE0C0;
+    }
+  </style>
+  <rect x="0" y="0" rx="10" width="775px" height="2680px" id="background-panel" fill="#190700"/>
+  <g transform="translate(14,10)">
+    <a xlink:href="http://github.com/emacsfodder/emacs-theme-orangey-bits">
+    <text style="font-size:42pt;" font-weight="bold" x="3%" y="50" id="theme-name">Orangey Bits</text>
+    <text style="font-size:12pt;" x="4%" y="75" id="theme-description">A Theme with smashing orangey bits.</text>
+    <text style="font-size:8pt;fill: #90776C" text-anchor="end" x="95%" y="20" id="theme-url">http://github.com/emacsfodder/emacs-theme-orangey-bits</text>
+    </a>
+  </g>
+  <g transform="translate(70,-40)">
+  <g transform="translate(20,90),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#000000"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BACKGROUND-0-HARD</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#000000</text>
+</g>
+
+<g transform="translate(140,90),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#190700"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BACKGROUND-0</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#190700</text>
+</g>
+
+<g transform="translate(260,90),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#200500"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BACKGROUND-0-SOFT</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#200500</text>
+</g>
+
+<g transform="translate(380,90),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#301000"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BACKGROUND-1</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#301000</text>
+</g>
+
+<g transform="translate(500,90),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#401000"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BACKGROUND-2</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#401000</text>
+</g>
+
+<g transform="translate(620,90),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#471000"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BACKGROUND-3</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#471000</text>
+</g>
+
+<g transform="translate(20,250),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#4F1000"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BACKGROUND-4</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#4F1000</text>
+</g>
+
+<g transform="translate(140,250),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#DD7400"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">MEDIUM</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#DD7400</text>
+</g>
+
+<g transform="translate(260,250),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FFFFFF"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">FOREGROUND-0-HARD</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FFFFFF</text>
+</g>
+
+<g transform="translate(380,250),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FFE0C0"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">FOREGROUND-0</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FFE0C0</text>
+</g>
+
+<g transform="translate(500,250),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FFA030"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">FOREGROUND-0-SOFT</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FFA030</text>
+</g>
+
+<g transform="translate(620,250),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FF8010"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">FOREGROUND-1</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FF8010</text>
+</g>
+
+<g transform="translate(20,410),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#F07010"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">FOREGROUND-2</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#F07010</text>
+</g>
+
+<g transform="translate(140,410),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#E06010"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">FOREGROUND-3</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#E06010</text>
+</g>
+
+<g transform="translate(260,410),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#D05010"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">FOREGROUND-4</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#D05010</text>
+</g>
+
+<g transform="translate(380,410),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FF0000"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BRIGHT-RED</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FF0000</text>
+</g>
+
+<g transform="translate(500,410),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#00FF00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BRIGHT-GREEN</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#00FF00</text>
+</g>
+
+<g transform="translate(620,410),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FFFF00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BRIGHT-YELLOW</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FFFF00</text>
+</g>
+
+<g transform="translate(20,570),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#0000FF"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BRIGHT-BLUE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#0000FF</text>
+</g>
+
+<g transform="translate(140,570),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FF00FF"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BRIGHT-PURPLE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FF00FF</text>
+</g>
+
+<g transform="translate(260,570),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#008080"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BRIGHT-TEAL</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#008080</text>
+</g>
+
+<g transform="translate(380,570),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FF8800"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BRIGHT-ORANGE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FF8800</text>
+</g>
+
+<g transform="translate(500,570),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#00FFFF"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BRIGHT-CYAN</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#00FFFF</text>
+</g>
+
+<g transform="translate(620,570),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FF9900"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">NEUTRAL-RED</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FF9900</text>
+</g>
+
+<g transform="translate(20,730),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FF9900"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">NEUTRAL-GREEN</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FF9900</text>
+</g>
+
+<g transform="translate(140,730),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FF9A03"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">NEUTRAL-YELLOW</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FF9A03</text>
+</g>
+
+<g transform="translate(260,730),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FFB240"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">NEUTRAL-BLUE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FFB240</text>
+</g>
+
+<g transform="translate(380,730),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FFB240"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">NEUTRAL-PURPLE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FFB240</text>
+</g>
+
+<g transform="translate(500,730),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FFB050"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">NEUTRAL-TEAL</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FFB050</text>
+</g>
+
+<g transform="translate(620,730),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FF9900"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">NEUTRAL-ORANGE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FF9900</text>
+</g>
+
+<g transform="translate(20,890),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FFCC80"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">NEUTRAL-CYAN</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FFCC80</text>
+</g>
+
+<g transform="translate(140,890),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FFB259"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">FADED-RED</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FFB259</text>
+</g>
+
+<g transform="translate(260,890),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#B97E40"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">FADED-GREEN</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#B97E40</text>
+</g>
+
+<g transform="translate(380,890),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FFB359"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">FADED-YELLOW</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FFB359</text>
+</g>
+
+<g transform="translate(500,890),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#A06537"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">FADED-BLUE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#A06537</text>
+</g>
+
+<g transform="translate(620,890),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FFB059"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">FADED-PURPLE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FFB059</text>
+</g>
+
+<g transform="translate(20,1050),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#905132"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">FADED-TEAL</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#905132</text>
+</g>
+
+<g transform="translate(140,1050),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#BA6D41"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">FADED-ORANGE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#BA6D41</text>
+</g>
+
+<g transform="translate(260,1050),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#BA8141"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">FADED-CYAN</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#BA8141</text>
+</g>
+
+<g transform="translate(380,1050),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FFE1BF"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">MUTED-RED</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FFE1BF</text>
+</g>
+
+<g transform="translate(500,1050),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#B9A28A"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">MUTED-GREEN</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#B9A28A</text>
+</g>
+
+<g transform="translate(620,1050),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FFE1BF"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">MUTED-YELLOW</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FFE1BF</text>
+</g>
+
+<g transform="translate(20,1210),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#A08978"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">MUTED-BLUE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#A08978</text>
+</g>
+
+<g transform="translate(140,1210),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FFE0BF"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">MUTED-PURPLE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FFE0BF</text>
+</g>
+
+<g transform="translate(260,1210),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#90776C"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">MUTED-TEAL</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#90776C</text>
+</g>
+
+<g transform="translate(380,1210),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#BA9C8B"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">MUTED-ORANGE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#BA9C8B</text>
+</g>
+
+<g transform="translate(500,1210),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#BAA48B"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">MUTED-CYAN</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#BAA48B</text>
+</g>
+
+<g transform="translate(620,1210),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#190F01"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BACKGROUND-RED</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#190F01</text>
+</g>
+
+<g transform="translate(20,1370),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#261E13"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BACKGROUND-GREEN</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#261E13</text>
+</g>
+
+<g transform="translate(140,1370),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#261701"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BACKGROUND-YELLOW</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#261701</text>
+</g>
+
+<g transform="translate(260,1370),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#261B0C"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BACKGROUND-BLUE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#261B0C</text>
+</g>
+
+<g transform="translate(380,1370),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#262019"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BACKGROUND-PURPLE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#262019</text>
+</g>
+
+<g transform="translate(500,1370),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#261E14"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BACKGROUND-TEAL</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#261E14</text>
+</g>
+
+<g transform="translate(620,1370),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#261600"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BACKGROUND-ORANGE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#261600</text>
+</g>
+
+<g transform="translate(20,1530),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#26221E"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BACKGROUND-CYAN</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#26221E</text>
+</g>
+
+<g transform="translate(140,1530),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#BF3000"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">MID-RED</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#BF3000</text>
+</g>
+
+<g transform="translate(260,1530),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#894F0F"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">MID-GREEN</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#894F0F</text>
+</g>
+
+<g transform="translate(380,1530),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#AF4F00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">MID-YELLOW</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#AF4F00</text>
+</g>
+
+<g transform="translate(500,1530),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#934F0F"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">MID-BLUE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#934F0F</text>
+</g>
+
+<g transform="translate(620,1530),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#BF4F0F"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">MID-PURPLE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#BF4F0F</text>
+</g>
+
+<g transform="translate(20,1690),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#B04D00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">MID-TEAL</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#B04D00</text>
+</g>
+
+<g transform="translate(140,1690),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#BF4200"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">MID-ORANGE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#BF4200</text>
+</g>
+
+<g transform="translate(260,1690),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#B25000"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">MID-CYAN</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#B25000</text>
+</g>
+
+<g transform="translate(380,1690),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FF4F00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">DELIMITER-1</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FF4F00</text>
+</g>
+
+<g transform="translate(500,1690),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#E14400"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">DELIMITER-2</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#E14400</text>
+</g>
+
+<g transform="translate(620,1690),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#D04000"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">DELIMITER-3</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#D04000</text>
+</g>
+
+<g transform="translate(20,1850),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#AA3A00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">DELIMITER-4</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#AA3A00</text>
+</g>
+
+<g transform="translate(140,1850),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FF6600"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IDENTIFIERS-1</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FF6600</text>
+</g>
+
+<g transform="translate(260,1850),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#ED5E00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IDENTIFIERS-2</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#ED5E00</text>
+</g>
+
+<g transform="translate(380,1850),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#D75600"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IDENTIFIERS-3</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#D75600</text>
+</g>
+
+<g transform="translate(500,1850),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#C14D00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IDENTIFIERS-4</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#C14D00</text>
+</g>
+
+<g transform="translate(620,1850),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#BB4400"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IDENTIFIERS-5</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#BB4400</text>
+</g>
+
+<g transform="translate(20,2010),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FF6600"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IDENTIFIERS-6</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FF6600</text>
+</g>
+
+<g transform="translate(140,2010),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#ED5E00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IDENTIFIERS-7</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#ED5E00</text>
+</g>
+
+<g transform="translate(260,2010),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#D75600"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IDENTIFIERS-8</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#D75600</text>
+</g>
+
+<g transform="translate(380,2010),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#C14D00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IDENTIFIERS-9</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#C14D00</text>
+</g>
+
+<g transform="translate(500,2010),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#BB4400"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IDENTIFIERS-10</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#BB4400</text>
+</g>
+
+<g transform="translate(620,2010),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FF6600"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IDENTIFIERS-11</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FF6600</text>
+</g>
+
+<g transform="translate(20,2170),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#ED5E00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IDENTIFIERS-12</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#ED5E00</text>
+</g>
+
+<g transform="translate(140,2170),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#D75600"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IDENTIFIERS-13</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#D75600</text>
+</g>
+
+<g transform="translate(260,2170),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#C14D00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IDENTIFIERS-14</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#C14D00</text>
+</g>
+
+<g transform="translate(380,2170),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#BB4400"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IDENTIFIERS-15</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#BB4400</text>
+</g>
+
+<g transform="translate(500,2170),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FFFFFF"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">WHITE</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FFFFFF</text>
+</g>
+
+<g transform="translate(620,2170),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#000000"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BLACK</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#000000</text>
+</g>
+
+<g transform="translate(20,2330),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FF5A00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">ACCENT-1</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FF5A00</text>
+</g>
+
+<g transform="translate(140,2330),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FF6A00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">ACCENT-2</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FF6A00</text>
+</g>
+
+<g transform="translate(260,2330),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FF7A00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">ACCENT-3</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FF7A00</text>
+</g>
+
+<g transform="translate(380,2330),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FF3A00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">ACCENT-4</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FF3A00</text>
+</g>
+
+<g transform="translate(500,2330),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#FF4A00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">ACCENT-5</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#FF4A00</text>
+</g>
+
+<g transform="translate(620,2330),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#F72A00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">ACCENT-6</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#F72A00</text>
+</g>
+
+<g transform="translate(20,2490),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#982F00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">DARK-ACCENT-1</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#982F00</text>
+</g>
+
+<g transform="translate(140,2490),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#882F00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">DARK-ACCENT-2</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#882F00</text>
+</g>
+
+<g transform="translate(260,2490),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#782600"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">DARK-ACCENT-3</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#782600</text>
+</g>
+
+<g transform="translate(380,2490),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#681A00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">DARK-ACCENT-4</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#681A00</text>
+</g>
+
+<g transform="translate(500,2490),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#581300"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">DARK-ACCENT-5</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#581300</text>
+</g>
+
+<g transform="translate(620,2490),rotate(45)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#190700"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#481100"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">DARK-ACCENT-6</text>
+ <text style="font-size:7pt; fill:#90776C;" font-weight="bold" x="52" y="134" id="color">#481100</text>
+</g>
+
+  </g>
+</svg>
