@@ -5,7 +5,7 @@
 A color theme for Emacs with Smashing Orangey Bits! It was inspired by my ancient emacs theme tangerine.
 which itself was inspired by old amber CRT, DEC VT terminals I used in the 80s.
 
-![](https://raw.githubusercontent.com/emacsfodder/emacs-theme-orangey-bits/master/orangey-fun.png)
+![](https://raw.githubusercontent.com/emacsfodder/emacs-theme-orangey-bits/images/2675645355_A_bank_of_orange_monochrome_1970s_computer_terminal_aboard_The_Nostromo_from_the_film_Alien_.png)
 
 ![](https://raw.githubusercontent.com/emacsfodder/emacs-theme-orangey-bits/master/palette.svg)
 
